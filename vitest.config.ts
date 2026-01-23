@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 import { resolve } from 'path';
 
 export default defineConfig({
-    plugins: [vue(), react()],
+    plugins: [vue() as any, react() as any],
     resolve: {
         alias: {
             'cricons-lib': resolve(__dirname, './src')
