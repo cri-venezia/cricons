@@ -39,6 +39,7 @@
     "deploy:assets": "tsx scripts/upload-to-r2.ts",
     "build:react": "npm run generate:react && vite build -c vite.react.config.ts",
     "build:native": "npm run generate:native && tsc -p tsconfig.native.json",
+    "build:site": "npm run generate && vite build -c vite.site.config.ts",
     "test": "vitest",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
     "format": "prettier --write .",
