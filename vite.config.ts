@@ -10,7 +10,6 @@ export default defineConfig({
   plugins: [vue(), dts({ rollupTypes: true })],
   resolve: {
     alias: {
-      '@': resolve(__dirname, './site'),
       'cricons-lib': resolve(__dirname, './src')
     }
   },
