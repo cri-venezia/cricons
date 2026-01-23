@@ -1,0 +1,21 @@
+import * as React from 'react'
+import Svg, { Path } from 'react-native-svg'
+import type { SvgProps } from 'react-native-svg'
+const JFilled = (props: SvgProps) => (
+  <Svg
+    viewBox="0 0 48 48"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    width={24}
+    height={24}
+    {...props}
+  >
+    <Path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M30 10C31.1046 10 32 10.8954 32 12V30C32 34.4183 28.4183 38 24 38C19.5817 38 16 34.4183 16 30C16 28.8954 16.8954 28 18 28C19.1046 28 20 28.8954 20 30C20 32.2092 21.7909 34 24 34C26.2091 34 28 32.2092 28 30V12C28 10.8954 28.8954 10 30 10Z"
+      fill="currentColor"
+    />
+  </Svg>
+)
+export default JFilled

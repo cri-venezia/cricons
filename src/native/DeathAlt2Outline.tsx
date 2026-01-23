@@ -1,0 +1,27 @@
+import * as React from 'react'
+import Svg, { Path } from 'react-native-svg'
+import type { SvgProps } from 'react-native-svg'
+const DeathAlt2Outline = (props: SvgProps) => (
+  <Svg
+    viewBox="0 0 48 48"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    width={24}
+    height={24}
+    {...props}
+  >
+    <Path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M17.3824 6.00112L13.0693 17.1843L17.6431 41.9845L30.316 41.9982L34.9304 17.2023L30.6356 6.01197L17.3824 6.00112ZM32.0106 4.0131L16.0106 4L11 16.9916L15.9779 43.9828L31.9779 44L37 17.0129L32.0106 4.0131Z"
+      fill="currentColor"
+    />
+    <Path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M23 17.9967V26H25V17.9967H28L28 15.9967H25V13H23V15.9967H20V17.9967H23Z"
+      fill="currentColor"
+    />
+  </Svg>
+)
+export default DeathAlt2Outline

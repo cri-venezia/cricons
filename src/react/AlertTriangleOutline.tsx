@@ -1,0 +1,24 @@
+import * as React from 'react'
+import type { SVGProps } from 'react'
+const AlertTriangleOutline = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    fill="none"
+    viewBox="0 0 48 48"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      fillRule="evenodd"
+      d="M24 6a1 1 0 0 1 .894.553l17 34A1 1 0 0 1 41 42H7a1 1 0 0 1-.894-1.447l17-34A1 1 0 0 1 24 6M8.618 40h30.764L24 9.236z"
+      clipRule="evenodd"
+    />
+    <path
+      fill="currentColor"
+      d="M22 20a2 2 0 1 1 4 0v10a2 2 0 1 1-4 0zM22 35.966C22 34.88 22.88 34 23.967 34h.067a1.966 1.966 0 1 1 0 3.933h-.067A1.966 1.966 0 0 1 22 35.966"
+    />
+  </svg>
+)
+export default AlertTriangleOutline

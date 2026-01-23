@@ -1,3 +1,4 @@
+/// <reference types="vitest" />
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import { resolve } from 'path'
@@ -5,6 +6,12 @@ import { resolve } from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, './site'),
+      'cricons-lib': resolve(__dirname, './src')
+    }
+  },
   build: {
     lib: {
       // Could also be a dictionary or array of multiple entry points
@@ -25,5 +32,9 @@ export default defineConfig({
         }
       }
     }
+  },
+  test: {
+    environment: 'jsdom',
+    include: ['src/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}']
   }
 })

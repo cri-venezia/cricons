@@ -1,0 +1,20 @@
+import * as React from 'react'
+import type { SVGProps } from 'react'
+const CreditCardOutline = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    fill="none"
+    viewBox="0 0 48 48"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      fillRule="evenodd"
+      d="M7 38a3 3 0 0 1-3-3V13a3 3 0 0 1 3-3h34a3 3 0 0 1 3 3v22a3 3 0 0 1-3 3zM6 13a1 1 0 0 1 1-1h34a1 1 0 0 1 1 1v3H6zm1 23a1 1 0 0 1-1-1V24h36v11a1 1 0 0 1-1 1z"
+      clipRule="evenodd"
+    />
+  </svg>
+)
+export default CreditCardOutline

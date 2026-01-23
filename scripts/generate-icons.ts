@@ -12,6 +12,7 @@ const __dirname = path.dirname(__filename);
 const INPUT_DIR = path.resolve(__dirname, '../public/icons/svg');
 const OUTPUT_DIR = path.resolve(__dirname, '../src/components');
 const INDEX_FILE = path.resolve(__dirname, '../src/index.ts');
+const METADATA_FILE = path.resolve(__dirname, '../src/metadata.json');
 
 const typeMap: Record<string, string> = {
   'filled': 'Filled',
@@ -29,6 +30,7 @@ async function generate() {
 
   const files = await glob('**/*.svg', { cwd: INPUT_DIR });
   const components: string[] = [];
+  const metadata: Record<string, string> = {};
 
   for (const file of files) {
     const filePath = path.join(INPUT_DIR, file);
@@ -38,6 +40,7 @@ async function generate() {
     // or 'filled/home.svg' (if no category)
     const parts = file.split('/'); // fast-glob returns forward slashes
     const styleDir = parts[0];
+    const category = parts.length > 2 ? parts[1] : 'uncategorized';
     const basename = path.basename(file, '.svg');
 
     // Determine style suffix
@@ -59,11 +62,13 @@ async function generate() {
     // TODO: Handle name collisions if multiple categories have same icon name
     if (components.includes(componentName)) {
       console.warn(`⚠️ Duplicate component name: ${componentName} for file ${file}. Prepending category.`);
-      const category = parts.length > 2 ? parts[1] : '';
-      if (category) {
+      if (category && category !== 'uncategorized') {
         componentName = pascalCase(category) + componentName;
       }
     }
+
+    // Store metadata
+    metadata[componentName] = category;
 
     // Optimize SVG
     const optimized = optimize(content, {
@@ -174,6 +179,7 @@ export default {
 `;
 
   await fs.writeFile(INDEX_FILE, mainIndex);
+  await fs.writeJSON(METADATA_FILE, metadata, { spaces: 2 });
   
   console.log(`🎉 Successfully generated ${components.length} icons!`);
 }

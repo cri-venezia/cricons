@@ -1,0 +1,30 @@
+import * as React from 'react'
+import type { SVGProps } from 'react'
+const MedicinesOutline24 = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    fill="none"
+    viewBox="0 0 24 24"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      fillRule="evenodd"
+      d="M5.621 3.664c.629-1.064 2.203-.954 2.677.187l2.524 6.073a1.5 1.5 0 0 1-1.49 2.072l-5.868-.41a1.5 1.5 0 0 1-1.187-2.26zm-1.21 5.983 4.253.297-1.83-4.402z"
+      clipRule="evenodd"
+    />
+    <path
+      fill="currentColor"
+      d="M15.759 5.284a1 1 0 1 0-.518 1.932l1.932.518a1 1 0 1 0 .518-1.932z"
+    />
+    <path
+      fill="currentColor"
+      fillRule="evenodd"
+      d="M16.5 2a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9M14 6.5a2.5 2.5 0 1 1 5 0 2.5 2.5 0 0 1-5 0M6.238 19.335a3.75 3.75 0 0 1 2.242-4.807l6.108-2.223a3.75 3.75 0 1 1 2.565 7.048l-6.108 2.223a3.75 3.75 0 0 1-4.807-2.241m6.908-4.377 2.126-.774a1.75 1.75 0 0 1 1.197 3.29l-2.126.773zm-1.88.684-2.102.766a1.75 1.75 0 1 0 1.197 3.288l2.103-.765z"
+      clipRule="evenodd"
+    />
+  </svg>
+)
+export default MedicinesOutline24

@@ -1,0 +1,8 @@
+name = "cricons-cdn"
+main = "worker/index.ts"
+compatibility_date = "2024-01-01"
+
+[[r2_buckets]]
+binding = "CRICONS_BUCKET"
+bucket_name = "cricons-assets"
+preview_bucket_name = "cricons-assets-preview"

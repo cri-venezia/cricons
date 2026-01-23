@@ -1,0 +1,20 @@
+import * as React from 'react'
+import type { SVGProps } from 'react'
+const InformationCampaignFilled = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    fill="none"
+    viewBox="0 0 48 48"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      fillRule="evenodd"
+      d="M24 40c8.837 0 16-7.163 16-16S32.837 8 24 8 8 15.163 8 24s7.163 16 16 16m7.243-11.757a6 6 0 1 1 0-8.486l1.414-1.414a8 8 0 1 0 0 11.314zM15 21v10h2V21zm2.5-2.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"
+      clipRule="evenodd"
+    />
+  </svg>
+)
+export default InformationCampaignFilled

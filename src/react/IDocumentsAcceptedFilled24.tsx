@@ -1,0 +1,24 @@
+import * as React from 'react'
+import type { SVGProps } from 'react'
+const IDocumentsAcceptedFilled24 = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    fill="none"
+    viewBox="0 0 24 24"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      fillRule="evenodd"
+      d="M8 2a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8.362a2 2 0 0 0-.464-1.28l-2.283-2.74-1.552-1.693A2 2 0 0 0 15.227 2zm10.698 6-1.951-2.342-1.247-1.36V7a1 1 0 0 0 1 1zm-2.284 2.979-4.33 4.465-2.498-2.629 1.45-1.377 1.062 1.118 2.88-2.97z"
+      clipRule="evenodd"
+    />
+    <path
+      fill="currentColor"
+      d="M5 5.5H3v12c0 1.401.662 2.535 1.525 3.299C5.37 21.546 6.475 22 7.5 22h10v-2h-10c-.474 0-1.12-.23-1.65-.7-.512-.453-.85-1.069-.85-1.8z"
+    />
+  </svg>
+)
+export default IDocumentsAcceptedFilled24

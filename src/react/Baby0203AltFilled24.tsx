@@ -1,0 +1,18 @@
+import * as React from 'react'
+import type { SVGProps } from 'react'
+const Baby0203AltFilled24 = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    fill="none"
+    viewBox="0 0 24 24"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M12 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6M7 6.934c1.534.997 3.884 2.655 5.869 4.86 1.887 2.096 3.373 4.607 3.6 7.45A5 5 0 0 1 7 17zM17 6.935v7.254c-.727-1.387-1.656-2.635-2.645-3.733q-.578-.64-1.18-1.22a4.3 4.3 0 0 0 2.021-1.252l1.175-1.292a.362.362 0 0 1 .629.243"
+    />
+  </svg>
+)
+export default Baby0203AltFilled24

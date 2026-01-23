@@ -1,0 +1,109 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:base",
+        ":disableMajorUpdates",
+        ":ignoreModulesAndTests",
+        ":prImmediately",
+        ":prHourlyLimitNone",
+        ":automergeMinor",
+        "group:monorepos",
+        "group:recommended",
+        "helpers:pinGitHubActionDigests"
+    ],
+    "packageRules": [
+        {
+            "matchPackageNames": [
+                "node"
+            ],
+            "enabled": false
+        },
+        {
+            "groupName": "Loaders",
+            "matchPackagePatterns": [
+                "^@?svgr/",
+                "svgo",
+                "fantasticon",
+                "scule",
+                "mime-types",
+                "fast-glob",
+                "fs-extra"
+            ]
+        },
+        {
+            "groupName": "Framework: Vue",
+            "matchPackagePatterns": [
+                "^vue",
+                "^@vue/",
+                "^@vitejs/plugin-vue",
+                "vue-router",
+                "lucide-vue-next"
+            ]
+        },
+        {
+            "groupName": "Framework: React",
+            "matchPackagePatterns": [
+                "^react",
+                "^@types/react",
+                "^@vitejs/plugin-react",
+                "classnames",
+                "prop-types"
+            ]
+        },
+        {
+            "groupName": "Framework: React Native",
+            "matchPackagePatterns": [
+                "^react-native",
+                "^@types/react-native"
+            ]
+        },
+        {
+            "groupName": "Build Tools (Vite)",
+            "matchPackagePatterns": [
+                "^vite",
+                "^@vitejs/",
+                "rollup",
+                "vite-plugin-dts"
+            ]
+        },
+        {
+            "groupName": "Testing (Vitest)",
+            "matchPackagePatterns": [
+                "^vitest",
+                "^@vitest/",
+                "^jsdom",
+                "^@testing-library/"
+            ]
+        },
+        {
+            "groupName": "Linting & Formatting",
+            "matchPackagePatterns": [
+                "^eslint",
+                "^prettier",
+                "^@typescript-eslint/",
+                "^@vue/eslint-config",
+                "^eslint-plugin",
+                "^eslint-config"
+            ]
+        },
+        {
+            "groupName": "Cloudflare & AWS",
+            "matchPackagePatterns": [
+                "^wrangler",
+                "^@aws-sdk/"
+            ]
+        },
+        {
+            "groupName": "TypeScript",
+            "matchPackagePatterns": [
+                "^typescript",
+                "^tsx",
+                "^vue-tsc"
+            ]
+        }
+    ],
+    "rangeStrategy": "bump",
+    "schedule": [
+        "every weekend"
+    ]
+}

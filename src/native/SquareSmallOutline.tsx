@@ -1,0 +1,21 @@
+import * as React from 'react'
+import Svg, { Path } from 'react-native-svg'
+import type { SvgProps } from 'react-native-svg'
+const SquareSmallOutline = (props: SvgProps) => (
+  <Svg
+    viewBox="0 0 48 48"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    width={24}
+    height={24}
+    {...props}
+  >
+    <Path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M14 14V34H34V14H14ZM13 12C12.4477 12 12 12.4477 12 13V35C12 35.5523 12.4477 36 13 36H35C35.5523 36 36 35.5523 36 35V13C36 12.4477 35.5523 12 35 12H13Z"
+      fill="currentColor"
+    />
+  </Svg>
+)
+export default SquareSmallOutline

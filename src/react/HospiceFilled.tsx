@@ -1,0 +1,20 @@
+import * as React from 'react'
+import type { SVGProps } from 'react'
+const HospiceFilled = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    fill="none"
+    viewBox="0 0 48 48"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      fillRule="evenodd"
+      d="M41.708 23.794 24.058 6.086 6.294 23.792a1 1 0 1 0 1.412 1.416L11 21.925V41a1 1 0 0 0 1 1h24a1 1 0 0 0 1-1V21.903l3.292 3.303a1 1 0 0 0 1.416-1.412M20.25 20C17.794 20 16 22.655 16 25.517c0 .77.116 1.506.32 2.205q.15.513.36 1C18.61 33.244 24 36 24 36s8-4.356 8-10.483C32 22.655 30.206 20 27.75 20c-1.705 0-2.97 1.191-3.75 2.88-.78-1.689-2.046-2.88-3.75-2.88"
+      clipRule="evenodd"
+    />
+  </svg>
+)
+export default HospiceFilled

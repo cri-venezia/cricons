@@ -11,16 +11,34 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/cricons.es.js",
-      "require": "./dist/cricons.umd.js",
-      "types": "./dist/index.d.ts"
+      "require": "./dist/cricons.umd.js"
+    },
+    "./react": {
+      "types": "./dist/react/index.d.ts",
+      "import": "./dist/react/cricons-react.es.js",
+      "require": "./dist/react/cricons-react.umd.js"
+    },
+    "./native": {
+      "types": "./dist/native/index.d.ts",
+      "import": "./dist/native/index.js"
     }
   },
   "scripts": {
+    "prepare": "husky",
     "dev": "vite",
-    "generate": "tsx scripts/generate-icons.ts",
     "build": "npm run generate && vue-tsc && vite build",
     "preview": "vite preview",
+    "generate": "tsx scripts/generate-icons.ts",
+    "generate:react": "tsx scripts/generate-react.ts",
+    "generate:native": "tsx scripts/generate-native.ts",
+    "generate:webfont": "tsx scripts/generate-webfont.ts",
+    "predeploy": "npm run generate && npm run generate:native && npm run generate:webfont",
+    "deploy": "wrangler deploy",
+    "deploy:assets": "tsx scripts/upload-to-r2.ts",
+    "build:react": "npm run generate:react && vite build -c vite.react.config.ts",
+    "test": "vitest",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
     "format": "prettier --write ."
   },
@@ -32,27 +50,54 @@
   "author": "Luca Forzutti",
   "license": "ISC",
   "dependencies": {
-    "vue": "^3.4.0"
+    "lucide-vue-next": "^0.562.0",
+    "vue": "^3.4.0",
+    "vue-router": "^4.6.4"
   },
   "devDependencies": {
+    "@aws-sdk/client-s3": "^3.974.0",
+    "@svgr/core": "^8.1.0",
+    "@svgr/plugin-jsx": "^8.1.0",
+    "@svgr/plugin-prettier": "^8.1.0",
+    "@svgr/plugin-svgo": "^8.1.0",
+    "@tailwindcss/postcss": "^4.1.18",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/react": "^16.3.2",
     "@types/fs-extra": "^11.0.4",
+    "@types/mime-types": "^3.0.1",
+    "@types/react": "^18.3.27",
+    "@types/react-native": "^0.72.8",
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "@typescript-eslint/parser": "^7.0.0",
     "@vitejs/plugin-vue": "^5.0.0",
     "@vue/eslint-config-typescript": "^13.0.0",
+    "@vue/test-utils": "^2.4.6",
     "@vue/tsconfig": "^0.5.1",
+    "autoprefixer": "^10.4.23",
+    "dotenv": "^17.2.3",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",
     "eslint-plugin-vue": "^9.22.0",
+    "fantasticon": "^4.1.0",
     "fast-glob": "^3.3.3",
     "fs-extra": "^11.3.3",
+    "husky": "^9.1.7",
+    "jsdom": "^27.4.0",
+    "mime-types": "^3.0.2",
+    "postcss": "^8.5.6",
     "prettier": "^3.2.5",
+    "react-native-svg": "^15.15.1",
     "scule": "^1.3.0",
     "svgo": "^4.0.0",
+    "tailwindcss": "^4.1.18",
     "tsx": "^4.21.0",
     "typescript": "^5.4.0",
     "vite": "^5.2.0",
-    "vue-tsc": "^2.0.0"
+    "vite-plugin-dts": "^4.5.4",
+    "vitepress": "^1.6.4",
+    "vitest": "^4.0.18",
+    "vue-tsc": "^2.0.0",
+    "wrangler": "^4.60.0"
   }
 }

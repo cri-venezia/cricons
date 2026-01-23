@@ -1,0 +1,32 @@
+import * as React from 'react'
+import Svg, { Path } from 'react-native-svg'
+import type { SvgProps } from 'react-native-svg'
+const ProviderFstOutline24 = (props: SvgProps) => (
+  <Svg
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    width={24}
+    height={24}
+    {...props}
+  >
+    <Path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M2 2H8V8H2V2ZM4 4V6H6V4H4Z"
+      fill="currentColor"
+    />
+    <Path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M16 16H22V22H16V16ZM18 18V20H20V18H18Z"
+      fill="currentColor"
+    />
+    <Path
+      d="M8.26427 8.38497L8.26846 13.0011L10.2685 12.9993L10.2673 11.7268L12.0317 13.4139L13.4139 11.9683L11.758 10.385H12.9974V8.38497H8.26427Z"
+      fill="currentColor"
+    />
+    <Path d="M14 12.5858L12.5858 14L15 16.4142L16.4142 15L14 12.5858Z" fill="currentColor" />
+  </Svg>
+)
+export default ProviderFstOutline24

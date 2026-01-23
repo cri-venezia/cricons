@@ -1,0 +1,24 @@
+import * as React from 'react'
+import type { SVGProps } from 'react'
+const DizzyFilled = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    fill="none"
+    viewBox="0 0 48 48"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M27.293 17.293a1 1 0 0 1 1.414 0l1.793 1.793 1.793-1.793a1 1 0 0 1 1.414 1.414L31.914 20.5l1.793 1.793a1 1 0 0 1-1.414 1.414L30.5 21.914l-1.793 1.793a1 1 0 0 1-1.414-1.414l1.793-1.793-1.793-1.793a1 1 0 0 1 0-1.414M14.293 17.293a1 1 0 0 1 1.414 0l1.793 1.793 1.793-1.793a1 1 0 0 1 1.414 1.414L18.914 20.5l1.793 1.793a1 1 0 0 1 0 1.414 1 1 0 0 1-1.414 0L17.5 21.914l-1.792 1.792v.001a1 1 0 0 1-1.415-1.414l1.793-1.793-1.793-1.793a1 1 0 0 1 0-1.414M31 32c0 3.314-3.134 4-7 4s-7-.686-7-4 3.134-6 7-6 7 2.686 7 6"
+    />
+    <path
+      fill="currentColor"
+      fillRule="evenodd"
+      d="M24 42c9.941 0 18-8.059 18-18S33.941 6 24 6 6 14.059 6 24s8.059 18 18 18m0-2c8.837 0 16-7.163 16-16S32.837 8 24 8 8 15.163 8 24s7.163 16 16 16"
+      clipRule="evenodd"
+    />
+  </svg>
+)
+export default DizzyFilled

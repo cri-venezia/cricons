@@ -1,0 +1,20 @@
+import * as React from 'react'
+import type { SVGProps } from 'react'
+const HospitalSymbolOutline = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    fill="none"
+    viewBox="0 0 48 48"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      fillRule="evenodd"
+      d="M24 42c-9.941 0-18-8.059-18-18S14.059 6 24 6s18 8.059 18 18-8.059 18-18 18M4 24C4 12.954 12.954 4 24 4s20 8.954 20 20-8.954 20-20 20S4 35.046 4 24m15.991 9.048v-7h8v7h4v-18h-4v7h-8v-7h-4v18z"
+      clipRule="evenodd"
+    />
+  </svg>
+)
+export default HospitalSymbolOutline

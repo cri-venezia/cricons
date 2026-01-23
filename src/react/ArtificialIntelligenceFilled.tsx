@@ -1,0 +1,18 @@
+import * as React from 'react'
+import type { SVGProps } from 'react'
+const ArtificialIntelligenceFilled = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    fill="none"
+    viewBox="0 0 48 48"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M34 6c-1.368 4.944-3.13 6.633-8 8 4.87 1.367 6.632 3.056 8 8 1.368-4.944 3.13-6.633 8-8-4.87-1.367-6.632-3.056-8-8M20 14c-2.395 8.651-5.476 11.608-14 14 8.524 2.392 11.605 5.349 14 14 2.395-8.651 5.476-11.608 14-14-8.524-2.392-11.605-5.349-14-14"
+    />
+  </svg>
+)
+export default ArtificialIntelligenceFilled
