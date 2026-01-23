@@ -7,7 +7,7 @@ import { render } from '@testing-library/react'; // You might need to install @t
 // Actually, let's just try to import and render using ReactDOM if needed or just unit test the function component return.
 // But standard practice is testing-library.
 import React from 'react';
-import { BloodBagFilled } from '../src/react';
+import { BloodBagFilled } from 'cricons-lib/react';
 
 describe('React Icons', () => {
     it('is a valid React component', () => {

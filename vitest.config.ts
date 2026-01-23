@@ -1,11 +1,15 @@
-
-/// <reference types="vitest" />
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vitest/config';
 import vue from '@vitejs/plugin-vue';
 import react from '@vitejs/plugin-react';
+import { resolve } from 'path';
 
 export default defineConfig({
     plugins: [vue(), react()],
+    resolve: {
+        alias: {
+            'cricons-lib': resolve(__dirname, './src')
+        }
+    },
     test: {
         globals: true,
         environment: 'jsdom',

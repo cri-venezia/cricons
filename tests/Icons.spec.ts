@@ -1,7 +1,7 @@
 
 import { describe, it, expect } from 'vitest';
 import { mount } from '@vue/test-utils';
-import { BloodBagFilled } from '../src/components';
+import { BloodBagFilled } from 'cricons-lib/components';
 
 describe('Vue Icons', () => {
     it('renders BloodBagFilled icon correctly', () => {
