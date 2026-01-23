@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const PpeGogglesFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M11.5 26C11.5 25.1716 12.1716 24.5 13 24.5H35C35.8284 24.5 36.5 25.1716 36.5 26V29C36.5 31.4853 34.4853 33.5 32 33.5C29.9753 33.5 28.2574 32.161 27.6946 30.3154C27.2641 28.9034 25.9353 27.5 24 27.5C22.0647 27.5 20.7359 28.9034 20.3054 30.3154C19.7426 32.161 18.0247 33.5 16 33.5C13.5147 33.5 11.5 31.4853 11.5 29V26Z"
       fill="currentColor"

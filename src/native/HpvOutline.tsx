@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const HpvOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M31 28C31.4037 28 31.7678 27.7573 31.9231 27.3846L34.4231 21.3846C34.6355 20.8748 34.3944 20.2893 33.8846 20.0769C33.3748 19.8645 32.7893 20.1056 32.5769 20.6154L31 24.4L29.4231 20.6154C29.2107 20.1056 28.6252 19.8645 28.1154 20.0769C27.6056 20.2893 27.3645 20.8748 27.5769 21.3846L30.0769 27.3846C30.2322 27.7573 30.5963 28 31 28Z"
       fill="currentColor"

@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const DentalHygieneOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M17.0916 14.3115C17.6439 14.3115 18.0916 14.7592 18.0916 15.3115V18.8447H21.7069C22.2592 18.8447 22.7069 19.2924 22.7069 19.8447C22.7069 20.397 22.2592 20.8447 21.7069 20.8447H18.0916V24.3782C18.0916 24.9305 17.6439 25.3782 17.0916 25.3782C16.5393 25.3782 16.0916 24.9305 16.0916 24.3782V20.8447H12.4761C11.9238 20.8447 11.4761 20.397 11.4761 19.8447C11.4761 19.2924 11.9238 18.8447 12.4761 18.8447H16.0916V15.3115C16.0916 14.7592 16.5393 14.3115 17.0916 14.3115Z"
       fill="currentColor"

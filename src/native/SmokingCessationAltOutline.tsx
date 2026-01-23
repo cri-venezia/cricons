@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const SmokingCessationAltOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M30 23C30.5523 23 31 23.4477 31 24V28C31 28.5523 30.5523 29 30 29C29.4477 29 29 28.5523 29 28V24C29 23.4477 29.4477 23 30 23Z"
       fill="currentColor"

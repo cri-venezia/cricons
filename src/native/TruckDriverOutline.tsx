@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const TruckDriverOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M21.0001 11C21.0001 10.4477 21.4478 10 22.0001 10H26.0001C26.5524 10 27.0001 10.4477 27.0001 11C27.0001 11.5523 26.5524 12 26.0001 12H22.0001C21.4478 12 21.0001 11.5523 21.0001 11Z"
       fill="currentColor"

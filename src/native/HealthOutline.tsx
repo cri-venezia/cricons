@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const HealthOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M21.9994 21.9998L21.9998 14.9999L25.9998 15.0001L25.9994 21.9998H32.9998V25.9998H25.9992L25.9988 32.9996L21.9988 32.9994L21.9992 25.9998H14.9998V21.9998H21.9994Z"
       fill="currentColor"

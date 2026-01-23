@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const SocialDistancingAltFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M20 10C20 7.79086 21.7909 6 24 6C26.2091 6 28 7.79086 28 10C28 12.2091 26.2091 14 24 14C21.7909 14 20 12.2091 20 10Z"
       fill="currentColor"

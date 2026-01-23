@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const ThermometerDigitalFilled24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path
       d="M4.66151 6.13527C4.36063 5.67214 4.49225 5.05292 4.95549 4.75221L8.94654 2.16138C9.40978 1.86067 10.0292 1.99233 10.3301 2.45546L11.4522 4.18274L5.7843 7.86354L4.66151 6.13527Z"
       fill="currentColor"

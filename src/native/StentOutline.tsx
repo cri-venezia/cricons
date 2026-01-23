@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const StentOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M13 5C13 4.44772 13.4477 4 14 4C14.5523 4 15 4.44772 15 5V10.6525C15 11.839 14.7355 13.0105 14.2257 14.0818L13.4832 15.6424C12.5067 17.6947 12 19.939 12 22.2119V22.2857C12 25.2018 12.6501 28.0812 13.903 30.7144C14.6252 32.2324 15 33.8922 15 35.5732V43C15 43.5523 14.5523 44 14 44C13.4477 44 13 43.5523 13 43V35.5732C13 34.1895 12.6915 32.8232 12.097 31.5737C10.7164 28.6721 10 25.4991 10 22.2857V22.2119C10 19.6417 10.573 17.1039 11.6772 14.7831L12.4198 13.2225C12.8018 12.4196 13 11.5417 13 10.6525V5Z"
       fill="currentColor"

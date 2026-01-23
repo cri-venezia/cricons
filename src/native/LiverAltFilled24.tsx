@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const LiverAltFilled24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path
       d="M4.08797 8.18648C5.15256 7.55108 9.98298 7.38512 11.5799 7.91741C9.98296 14.8372 13.709 14.305 13.1767 14.8373C12.6444 15.3695 8.8786 17.2355 5.15255 16.7032C1.42651 16.1709 3.07915 8.7886 4.08797 8.18648Z"
       fill="currentColor"

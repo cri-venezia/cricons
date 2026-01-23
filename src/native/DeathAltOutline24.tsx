@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const DeathAltOutline24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path
       d="M11.0001 9.5C11.0001 10.3284 10.3285 11 9.50006 11C8.67164 11 8.00006 10.3284 8.00006 9.5C8.00006 8.67157 8.67164 8 9.50006 8C10.3285 8 11.0001 8.67157 11.0001 9.5Z"
       fill="currentColor"

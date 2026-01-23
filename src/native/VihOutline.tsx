@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const VihOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M16.5 20.5C17.0523 20.5 17.5 20.9477 17.5 21.5V23H18.5V21.5C18.5 20.9477 18.9477 20.5 19.5 20.5C20.0523 20.5 20.5 20.9477 20.5 21.5V26.5C20.5 27.0523 20.0523 27.5 19.5 27.5C18.9477 27.5 18.5 27.0523 18.5 26.5V25H17.5V26.5C17.5 27.0523 17.0523 27.5 16.5 27.5C15.9477 27.5 15.5 27.0523 15.5 26.5V21.5C15.5 20.9477 15.9477 20.5 16.5 20.5Z"
       fill="currentColor"

@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const SodiumFreeOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M27 11C27 11.5523 26.5523 12 26 12C25.4477 12 25 11.5523 25 11C25 10.4477 25.4477 10 26 10C26.5523 10 27 10.4477 27 11Z"
       fill="currentColor"

@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const Icon2gOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M32.4853 5.5148C33.5996 6.6291 34.4835 7.95197 35.0866 9.40788C35.6896 10.8638 36 12.4242 36 14.0001C36 15.5759 35.6896 17.1364 35.0866 18.5923C34.4835 20.0482 33.5996 21.3711 32.4853 22.4854L33.8995 23.8996C35.1995 22.5996 36.2308 21.0562 36.9343 19.3577C37.6379 17.6591 38 15.8386 38 14.0001C38 12.1616 37.6379 10.3411 36.9343 8.64251C36.2308 6.94396 35.1995 5.40061 33.8995 4.10059L32.4853 5.5148Z"
       fill="currentColor"

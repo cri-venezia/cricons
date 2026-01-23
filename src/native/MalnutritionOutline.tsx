@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const MalnutritionOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M20.25 31.4607C20.25 29.4103 21.5206 28.4653 22.5 28.4653C23.0523 28.4653 23.5 28.9124 23.5 29.4638C23.5 29.988 23.0955 30.4178 22.5811 30.459C22.562 30.4694 22.5295 30.4911 22.4923 30.5322C22.4175 30.6149 22.25 30.8601 22.25 31.4607V34.9553C22.25 35.5068 21.8023 35.9538 21.25 35.9538C20.6977 35.9538 20.25 35.5068 20.25 34.9553V31.4607Z"
       fill="currentColor"

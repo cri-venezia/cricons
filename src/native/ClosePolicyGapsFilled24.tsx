@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const ClosePolicyGapsFilled24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path
       d="M21 11.25H19V10.5C19 9.80964 18.4404 9.25 17.75 9.25H15.75C15.0596 9.25 14.5 9.80964 14.5 10.5V11.25H12.75L12.75 8.25H10.75V6.25H12.75V3H20C20.5523 3 21 3.44772 21 4V11.25Z"
       fill="currentColor"

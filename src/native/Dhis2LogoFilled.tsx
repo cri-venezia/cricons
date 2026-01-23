@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const Dhis2LogoFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M24.9589 15.3012L34.2879 21.2064L32.5482 22.4722L23.9255 17.0141L15.386 22.47L13.6578 21.2008L22.8849 15.3057C23.5202 14.8997 24.3219 14.898 24.9589 15.3012Z"
       fill="currentColor"

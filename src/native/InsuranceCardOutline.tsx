@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const InsuranceCardOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path d="M24 23H10V21H24V23Z" fill="currentColor" />
     <Path d="M10 19H24V17H10V19Z" fill="currentColor" />
     <Path d="M24 27H10V25H24V27Z" fill="currentColor" />

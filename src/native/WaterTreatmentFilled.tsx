@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const WaterTreatmentFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M30 26.8182C30 30.2323 27.3137 33 24 33C20.6863 33 18 30.2323 18 26.8182C18 21.4091 24 15 24 15C24 15 30 21.4091 30 26.8182Z"
       fill="currentColor"

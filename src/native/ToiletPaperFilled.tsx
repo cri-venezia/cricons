@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const ToiletPaperFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M27.7428 11.6503C27.7428 12.6997 26.077 13.5504 24.0222 13.5504C21.9673 13.5504 20.3015 12.6997 20.3015 11.6503C20.3015 10.6009 21.9673 9.75024 24.0222 9.75024C26.077 9.75024 27.7428 10.6009 27.7428 11.6503Z"
       fill="currentColor"

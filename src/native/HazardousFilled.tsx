@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const HazardousFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M20.3002 30L16.0844 37.4402C15.9985 37.5912 15.9772 37.7687 16.0251 37.9347C16.0728 38.1007 16.1861 38.242 16.3403 38.3282C21.0073 40.9382 26.9938 40.9382 31.6581 38.3282C31.8129 38.2424 31.9266 38.1012 31.9747 37.9351C32.0229 37.769 32.0016 37.5913 31.9154 37.4402L27.7006 30.0002C26.6853 30.7821 25.3994 31.2493 24.0005 31.2493C22.6016 31.2493 21.3155 30.7821 20.3002 30Z"
       fill="currentColor"

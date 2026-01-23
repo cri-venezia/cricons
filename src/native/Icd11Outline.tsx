@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const Icd11Outline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M13 12.0001C12.4477 12.0001 12 12.4478 12 13.0001C12 13.5524 12.4477 14.0001 13 14.0001H14V18.0001H13C12.4477 18.0001 12 18.4478 12 19.0001C12 19.5524 12.4477 20.0001 13 20.0001H17C17.5523 20.0001 18 19.5524 18 19.0001C18 18.4478 17.5523 18.0001 17 18.0001H16V14.0001H17C17.5523 14.0001 18 13.5524 18 13.0001C18 12.4478 17.5523 12.0001 17 12.0001H13Z"
       fill="currentColor"

@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const MarketStallOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M22.5 28C21.6716 28 21 27.3284 21 26.5C21 25.6716 21.6716 25 22.5 25C23.3284 25 24 25.6716 24 26.5C24 27.3284 23.3284 28 22.5 28Z"
       fill="currentColor"

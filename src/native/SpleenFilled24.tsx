@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const SpleenFilled24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path
       d="M7.2808 11.5108C6.1646 12.1823 5.25589 13.0796 4.21917 14.3755C3.87416 14.8068 3.94408 15.4361 4.37534 15.7811C4.8066 16.1261 5.4359 16.0562 5.78091 15.6249C6.55381 14.6588 7.18061 14.0197 7.82761 13.5464C7.85522 13.5368 7.88264 13.526 7.9098 13.5137C8.38866 13.2986 8.96771 13.311 9.5644 13.4621C9.50003 12.75 9.04901 12.0134 7.95003 11.16C7.72001 11.2726 7.49824 11.38 7.2808 11.5108Z"
       fill="currentColor"

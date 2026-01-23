@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const CallCentreOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M20.4036 22.2024C21.3982 22.2024 22.2044 21.3961 22.2044 20.4015C22.2044 19.407 21.3982 18.6007 20.4036 18.6007C19.409 18.6007 18.6028 19.407 18.6028 20.4015C18.6028 21.3961 19.409 22.2024 20.4036 22.2024Z"
       fill="currentColor"

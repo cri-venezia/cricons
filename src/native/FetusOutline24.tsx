@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const FetusOutline24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path
       d="M18.3953 9.56473C18.3953 10.9812 17.2322 12.1295 15.7974 12.1295C14.3627 12.1295 13.1995 10.9812 13.1995 9.56473C13.1995 8.14827 14.3627 7 15.7974 7C17.2322 7 18.3953 8.14827 18.3953 9.56473Z"
       fill="currentColor"

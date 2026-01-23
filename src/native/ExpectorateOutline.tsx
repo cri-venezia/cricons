@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const ExpectorateOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M24 40C24.4277 40 24.8515 39.9832 25.2708 39.9503C25.4361 40.6046 25.6961 41.2702 26.0995 41.8789C25.4108 41.9589 24.7102 42 24 42C14.0589 42 6 33.9411 6 24C6 14.0589 14.0589 6 24 6C33.9411 6 42 14.0589 42 24C42 24.586 41.972 25.1655 41.9173 25.7371C41.334 25.3681 40.6666 25.1263 39.9669 25.038C39.9888 24.6948 40 24.3487 40 24C40 15.1634 32.8366 8 24 8C15.1634 8 8 15.1634 8 24C8 32.8366 15.1634 40 24 40Z"
       fill="currentColor"

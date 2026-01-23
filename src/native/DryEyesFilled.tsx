@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const DryEyesFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M29.9532 24.051C29.9532 27.35 27.2878 30.0244 24 30.0244C20.7121 30.0244 18.0468 27.35 18.0468 24.051C18.0468 20.752 20.7121 18.0776 24 18.0776C25.215 18.0776 26.3449 18.4428 27.2868 19.0697C26.904 19.3984 26.6613 19.8867 26.6613 20.4319C26.6613 21.4216 27.4609 22.224 28.4473 22.224C28.8574 22.224 29.2353 22.0852 29.5368 21.852C29.8055 22.5325 29.9532 23.2745 29.9532 24.051Z"
       fill="currentColor"

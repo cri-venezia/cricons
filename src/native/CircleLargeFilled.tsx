@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const CircleLargeFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M23.9999 44.0003C35.0456 44.0003 44 35.0458 44 24.0001C44 12.9543 35.0456 4 23.9999 4C12.9541 4 3.99976 12.9543 3.99976 24.0001C3.99976 35.0458 12.9541 44.0003 23.9999 44.0003Z"
       fill="currentColor"

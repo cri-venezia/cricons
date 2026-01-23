@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const PavedRoadAltOutline24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path
       d="M7 1.75C7.55228 1.75 8 2.19772 8 2.75V21.25C8 21.8023 7.55228 22.25 7 22.25C6.44772 22.25 6 21.8023 6 21.25V2.75C6 2.19772 6.44772 1.75 7 1.75Z"
       fill="currentColor"

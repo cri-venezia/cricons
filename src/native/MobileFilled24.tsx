@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const MobileFilled24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path
       d="M11.6765 12.686C11.014 12.0609 10.4692 11.5469 10.0892 11.0635C9.70996 10.5811 9.50155 10.1374 9.50115 9.65394C9.50051 8.86721 10.0923 8.24952 10.8471 8.2489C11.2742 8.24855 11.6853 8.45572 11.9534 8.78339L12.0023 8.84311L12.0511 8.78331C12.3188 8.4552 12.7295 8.24735 13.1565 8.24701C13.9115 8.24639 14.5042 8.86311 14.5048 9.64984C14.5052 10.1333 14.2976 10.5774 13.9191 11.0608C13.5412 11.5434 12.9997 12.057 12.3413 12.6816L12.3346 12.688L12.0059 12.9979L11.6765 12.686Z"
       fill="currentColor"

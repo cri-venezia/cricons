@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const HotMealFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M5 28.0001C4.44772 28.0001 4 28.4478 4 29.0001C4 29.5524 4.44772 30.0001 5 30.0001H8C8 34.4184 11.5817 38.0001 16 38.0001H32C36.4183 38.0001 40 34.4184 40 30.0001H43C43.5523 30.0001 44 29.5524 44 29.0001C44 28.4478 43.5523 28.0001 43 28.0001H5Z"
       fill="currentColor"

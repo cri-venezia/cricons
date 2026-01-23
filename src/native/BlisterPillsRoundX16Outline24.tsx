@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const BlisterPillsRoundX16Outline24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path
       d="M14.2903 12.75C14.712 12.75 15.0539 12.4142 15.0539 12C15.0539 11.5858 14.712 11.25 14.2903 11.25C13.8685 11.25 13.5266 11.5858 13.5266 12C13.5266 12.4142 13.8685 12.75 14.2903 12.75Z"
       fill="currentColor"

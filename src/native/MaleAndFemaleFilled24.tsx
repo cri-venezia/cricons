@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const MaleAndFemaleFilled24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path
       d="M7.24993 7C8.3545 7 9.24993 6.10457 9.24993 5C9.24993 3.89543 8.3545 3 7.24993 3C6.14536 3 5.24993 3.89543 5.24993 5C5.24993 6.10457 6.14536 7 7.24993 7Z"
       fill="currentColor"

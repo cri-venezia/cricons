@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const ChlamydiaAltOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M5.94168 8.76905L7.54777 3.75L9.45262 4.35955L7.84652 9.3786C6.31083 14.1776 5.79967 19.2456 6.34611 24.2546L8.4943 43.9463L6.50609 44.1632L4.35791 24.4715C3.78111 19.1842 4.32067 13.8347 5.94168 8.76905Z"
       fill="currentColor"

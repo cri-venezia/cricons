@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const SweatingOutline24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path
       d="M14.5001 4.5C14.5001 5.88071 13.3808 7 12.0001 7C10.6194 7 9.50007 5.88071 9.50007 4.5C9.50007 3.11929 10.6194 2 12.0001 2C13.3808 2 14.5001 3.11929 14.5001 4.5Z"
       fill="currentColor"

@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const WoozyOutline24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path
       d="M15.5 11.2002C16.3284 11.2002 17 10.5286 17 9.7002C17 8.87177 16.3284 8.2002 15.5 8.2002C14.6716 8.2002 14 8.87177 14 9.7002C14 10.5286 14.6716 11.2002 15.5 11.2002Z"
       fill="currentColor"

@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const DeathFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M25.4062 38C26.3273 38 27 37.1705 27 36.2759C27 34.2788 24 33 24 33C24 33 21 34.3611 21 36.2759C21 37.1703 21.6726 38 22.5938 38C23.233 38 23.7073 37.6278 24 37.0998C24.2928 37.6278 24.7671 38 25.4062 38Z"
       fill="currentColor"

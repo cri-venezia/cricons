@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const EndocrinologyOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M23 34C23.5523 34 24 32.8807 24 31.5C24 32.8807 24.4477 34 25 34C25.5523 34 26 32.8807 26 31.5C26 30.1193 25.5523 29 25 29C24.4477 29 24 30.1193 24 31.5C24 30.1193 23.5523 29 23 29C22.4477 29 22 30.1193 22 31.5C22 32.8807 22.4477 34 23 34Z"
       fill="currentColor"

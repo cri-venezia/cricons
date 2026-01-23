@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const Icon3gFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M12.9134 9.40788C13.5165 7.95197 14.4004 6.6291 15.5147 5.5148L14.1005 4.10059C12.8005 5.40061 11.7693 6.94395 11.0657 8.64251C10.3621 10.3411 10 12.1616 10 14.0001C10 15.8386 10.3621 17.6591 11.0657 19.3576C11.7693 21.0562 12.8005 22.5996 14.1005 23.8996L15.5147 22.4854C14.4004 21.3711 13.5165 20.0482 12.9134 18.5923C12.3104 17.1364 12 15.5759 12 14.0001C12 12.4242 12.3104 10.8638 12.9134 9.40788Z"
       fill="currentColor"

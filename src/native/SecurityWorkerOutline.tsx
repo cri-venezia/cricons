@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const SecurityWorkerOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M24 13C24.8284 13 25.5 12.3284 25.5 11.5C25.5 10.6715 24.8284 9.99996 24 9.99996C23.1716 9.99996 22.5 10.6715 22.5 11.5C22.5 12.3284 23.1716 13 24 13Z"
       fill="currentColor"

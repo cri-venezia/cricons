@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const AntibodyOutline24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path
       d="M6.27582 7.78964C6.65671 8.18957 7.28968 8.20501 7.68961 7.82412C8.08954 7.44323 8.10498 6.81026 7.72409 6.41033L5.72409 4.31034C5.3432 3.91042 4.71023 3.89498 4.3103 4.27587C3.91037 4.65675 3.89493 5.28973 4.27582 5.68966L6.27582 7.78964Z"
       fill="currentColor"

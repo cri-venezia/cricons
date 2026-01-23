@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const EarNoseThroatOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M16.25 16C14.6675 16 13.4449 16.4864 12.6221 17.3471C11.8114 18.1952 11.5 19.2906 11.5 20.3055C11.5 21.8742 12.4699 23.2877 13.3492 24.2683C14.2606 25.2847 15.2664 26.0461 15.6953 26.3321L16.5273 26.8867L17.6368 25.2226L16.8047 24.6679C16.4836 24.4539 15.6144 23.7986 14.8382 22.9331C14.03 22.0318 13.5 21.098 13.5 20.3056C13.5 19.6814 13.6902 19.1241 14.0678 18.7291C14.4332 18.3469 15.0856 18 16.25 18H17.25V16H16.25Z"
       fill="currentColor"

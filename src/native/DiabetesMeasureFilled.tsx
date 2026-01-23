@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const DiabetesMeasureFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M23.9672 22.147C26.2072 22.1452 27.9659 20.4676 27.9641 18.3342C27.9625 16.3533 23.9585 11.4804 23.9585 11.4804C23.9585 11.4804 19.9624 16.2075 19.9641 18.3408C19.9659 20.4741 21.7272 22.1489 23.9672 22.147Z"
       fill="currentColor"

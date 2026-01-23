@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const PpeMaskN95Outline24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path d="M12.7017 8.94653V15.2048H11.2983V8.94653H12.7017Z" fill="currentColor" />
     <Path
       d="M14.8986 14.8159C15.5069 14.8159 16 14.3228 16 13.7145C16 13.1062 15.5069 12.613 14.8986 12.613C14.2903 12.613 13.7971 13.1062 13.7971 13.7145C13.7971 14.3228 14.2903 14.8159 14.8986 14.8159Z"

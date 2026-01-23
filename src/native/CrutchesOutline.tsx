@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const CrutchesOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M22.3019 41.9658C22.4358 41.334 23.3404 40.9933 23.9862 40.9933C24.6444 40.9933 25.5539 41.3328 25.6934 41.976L25.8422 42.6622C25.9359 43.094 25.7352 43.5386 25.3235 43.6989C24.9351 43.85 24.4366 43.9999 23.9863 43.9999C23.5642 43.9999 23.0718 43.8496 22.6829 43.6982C22.2688 43.537 22.0634 43.0909 22.1555 42.6562L22.3019 41.9658Z"
       fill="currentColor"

@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const QuestionTriangleOutline24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path
       d="M11.9045 12.5C11.2826 12.5 11 12.9036 11 13.15C11 13.5642 10.6642 13.9 10.25 13.9C9.83579 13.9 9.5 13.5642 9.5 13.15C9.5 11.85 10.6989 11 11.9045 11C13.1102 11 14.3091 11.85 14.3091 13.15C14.3091 14.2193 13.4974 14.9539 12.5273 15.2048V15.25C12.5273 15.6642 12.1915 16 11.7773 16C11.3631 16 11.0273 15.6642 11.0273 15.25V14.58C11.0273 14.1417 11.3822 13.8049 11.7983 13.7999C12.556 13.7906 12.8091 13.3573 12.8091 13.15C12.8091 12.9036 12.5264 12.5 11.9045 12.5Z"
       fill="currentColor"

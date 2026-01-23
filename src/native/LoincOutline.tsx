@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const LoincOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path d="M24 20.0225H22V28.0225H24V20.0225Z" fill="currentColor" />
     <Path
       d="M27.5352 20.023L30 23.7202V20.023H32L32 28.023H30.4648L28 24.3258V28.023H26V20.023H27.5352Z"

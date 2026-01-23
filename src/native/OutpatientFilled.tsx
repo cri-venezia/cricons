@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const OutpatientFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M21.9348 10.7234C21.5943 12.5872 19.9621 14 18 14C15.7909 14 14 12.2091 14 10C14 9.73628 14.0255 9.47852 14.0742 9.22906C15.6003 10.1551 16.9291 10.6771 18.314 10.8666C19.4897 11.0276 20.6533 10.9406 21.9348 10.7234Z"
       fill="currentColor"

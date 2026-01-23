@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const NephrologyOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M15.5462 31.3156C7.64483 27.5384 10.5202 15.3649 15.9245 13.4496C18.1663 12.6551 20.7061 15.4855 20.7209 17.2125C20.7272 17.9592 20.3887 18.6805 20.0361 19.432C19.573 20.4187 19.0856 21.4574 19.3221 22.6739C19.7386 24.8169 20.2268 28.4288 19.1645 30.118C18.1022 31.8073 17.0073 32.0141 15.5462 31.3156Z"
       fill="currentColor"

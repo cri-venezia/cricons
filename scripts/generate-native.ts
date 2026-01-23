@@ -69,6 +69,7 @@ async function generate() {
                             },
                         },
                         'removeDimensions',
+                        'removeXMLNS',
                     ],
                 },
             },

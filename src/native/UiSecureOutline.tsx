@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const UiSecureOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path d="M15 26H32.9999V24H15V26Z" fill="currentColor" />
     <Path d="M32.9999 31H15V29H32.9999V31Z" fill="currentColor" />
     <Path d="M15 36H32.9999V34H15V36Z" fill="currentColor" />

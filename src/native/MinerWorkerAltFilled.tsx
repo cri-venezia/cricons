@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const MinerWorkerAltFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M33.6554 20.7505H25.4825V40.3654C25.4825 41.2644 24.747 42 23.848 42C22.9489 42 22.2134 41.2644 22.2134 40.3654V32.1926H18.9442V40.3654C18.9442 41.2644 18.2087 42 17.3097 42C16.4106 42 15.6751 41.2644 15.6751 40.3654V20.7505V28.2167C14.7761 28.2167 12 26.5056 12 22.2919C12 19.116 14.7761 17.4814 15.6751 17.4814H33.6554C34.5544 17.4814 35.29 18.2169 35.29 19.116C35.29 20.015 34.5544 20.7505 33.6554 20.7505Z"
       fill="currentColor"

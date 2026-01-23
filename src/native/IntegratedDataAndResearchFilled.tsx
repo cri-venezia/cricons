@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const IntegratedDataAndResearchFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M27 27.8397C24.3764 27.8299 21.9546 26.9635 20 25.5056V41C20 41.5523 20.4477 42 21 42H26C26.5523 42 27 41.5523 27 41V27.8397Z"
       fill="currentColor"

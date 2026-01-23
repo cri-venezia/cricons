@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const IDocumentsDeniedOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M22.7071 20.2929C22.3166 19.9024 21.6834 19.9024 21.2929 20.2929C20.9024 20.6834 20.9024 21.3166 21.2929 21.7071L24.5858 25L21.2929 28.2929C20.9024 28.6834 20.9024 29.3166 21.2929 29.7071C21.6834 30.0976 22.3166 30.0976 22.7071 29.7071L26 26.4142L29.2929 29.7071C29.6834 30.0976 30.3166 30.0976 30.7071 29.7071C31.0976 29.3166 31.0976 28.6834 30.7071 28.2929L27.4142 25L30.7071 21.7071C31.0976 21.3166 31.0976 20.6834 30.7071 20.2929C30.3166 19.9024 29.6834 19.9024 29.2929 20.2929L26 23.5858L22.7071 20.2929Z"
       fill="currentColor"

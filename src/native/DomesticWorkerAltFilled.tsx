@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const DomesticWorkerAltFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M13 9.50024C13 11.4332 14.567 13.0002 16.5 13.0002C18.433 13.0002 20 11.4332 20 9.50024C20 7.56725 18.433 6.00024 16.5 6.00024C14.567 6.00024 13 7.56725 13 9.50024Z"
       fill="currentColor"

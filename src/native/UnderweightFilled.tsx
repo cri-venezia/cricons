@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const UnderweightFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M28.5 8.5C28.5 10.9853 26.4853 13 24 13C21.5147 13 19.5 10.9853 19.5 8.5C19.5 6.01472 21.5147 4 24 4C26.4853 4 28.5 6.01472 28.5 8.5Z"
       fill="currentColor"

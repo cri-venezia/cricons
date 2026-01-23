@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const HealthLiteracyOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M33 15C33 14.4477 32.5523 14 32 14C31.4477 14 31 14.4477 31 15V17.7336C30.0843 18.0636 29.1301 18.5184 28.0218 19.1218C27.5368 19.3858 27.3576 19.9931 27.6217 20.4782C27.8858 20.9632 28.4931 21.1424 28.9782 20.8783C29.7414 20.4628 30.3995 20.137 31 19.882V23C31 23.5523 31.4477 24 32 24C32.5523 24 33 23.5523 33 23V19.2354C33.8839 19.0482 34.8057 18.9862 35.9862 19.0025C36.5384 19.0101 36.9923 18.5686 36.9999 18.0164C37.0075 17.4642 36.566 17.0103 36.0138 17.0027C34.9055 16.9874 33.9427 17.0353 33 17.199V15Z"
       fill="currentColor"

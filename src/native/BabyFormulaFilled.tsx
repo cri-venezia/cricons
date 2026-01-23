@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const BabyFormulaFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M11.6826 4L18.6826 9.00002H37.5974C37.5836 8.98978 37.5695 8.97991 37.555 8.97042L30.4494 4.29566C30.1555 4.10234 29.8175 4 29.4726 4H11.6826Z"
       fill="currentColor"

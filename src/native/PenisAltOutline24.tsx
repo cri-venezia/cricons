@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const PenisAltOutline24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path
       d="M5.05654 2.6687C3.81241 6.21196 3.05447 9.07644 3.00283 11.9822C2.95091 14.9034 3.61313 17.7845 5.07371 21.3767L6.92642 20.6233C5.52883 17.1861 4.95694 14.5819 5.00251 12.0178C5.04835 9.43832 5.7195 6.8175 6.94359 3.33129L5.05654 2.6687Z"
       fill="currentColor"

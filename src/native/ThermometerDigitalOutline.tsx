@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const ThermometerDigitalOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M35.9721 39.531L34.105 40.7237L35.894 43.5244C36.2234 44.04 36.9084 44.1909 37.4239 43.8616C37.9395 43.5322 38.0905 42.8473 37.7612 42.3317L35.9721 39.531Z"
       fill="currentColor"

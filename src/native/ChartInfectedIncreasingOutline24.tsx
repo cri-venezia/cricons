@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const ChartInfectedIncreasingOutline24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path
       d="M2 2V20C2 21.1046 2.89543 22 4 22H22V20H4V19H5.17877C6.14495 19 7.15879 18.9817 8.17714 18.8485C9.26237 18.7065 10.8525 18.4278 12.0312 17.8851C14.8102 16.6054 16.5215 15.1423 18.1176 12.3578C18.7637 11.2305 19.1288 10.1341 19.3195 9.0899L20.4773 10.367L21.959 9.02372L18.7764 5.51314L14.7495 8.01049L15.8036 9.71018L17.348 8.75234C17.1918 9.59488 16.8969 10.4656 16.3824 11.3632C15.0069 13.7629 13.6219 14.9507 11.1946 16.0684C10.3118 16.4749 8.98335 16.726 7.91776 16.8654C7.0352 16.9808 6.1297 17 5.17877 17H4V2H2Z"
       fill="currentColor"

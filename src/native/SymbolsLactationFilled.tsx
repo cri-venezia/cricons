@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const SymbolsLactationFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M31.6286 27C30.515 23.8956 27.0719 19.8518 23.6958 15.8866C19.7819 11.2898 15.9581 6.79884 15.9581 4H10V44H18L18 39.185C16.8985 38.8807 15.7572 38.4569 14.5771 37.9062L15.4229 36.0939C18.511 37.535 21.1744 37.9726 23.4389 37.7106C25.6863 36.887 27.8456 35.4274 29.4521 33.7049C29.5081 33.6333 29.6235 33.505 29.7403 33.3754C29.8611 33.2412 29.9832 33.1056 30.0421 33.0297C30.5761 32.3759 31.0279 31.6932 31.3744 31H32C33.1046 31 34 30.1046 34 29C34 27.8954 33.1046 27 32 27H31.6286Z"
       fill="currentColor"

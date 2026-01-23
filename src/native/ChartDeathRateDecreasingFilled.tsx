@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const ChartDeathRateDecreasingFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M19 16C19 17.1046 18.1046 18 17 18C15.8954 18 15 17.1046 15 16C15 14.8954 15.8954 14 17 14C18.1046 14 19 14.8954 19 16Z"
       fill="currentColor"

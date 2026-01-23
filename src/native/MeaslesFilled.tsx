@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const MeaslesFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M14.2214 16.3725C14.5389 15.9785 15.1008 15.8838 15.53 16.152L19.53 18.652C19.8224 18.8347 20 19.1552 20 19.5C20 19.8448 19.8224 20.1653 19.53 20.348L15.53 22.848C15.0947 23.1201 14.5241 23.0183 14.2096 22.6126C13.8951 22.2069 13.939 21.6289 14.311 21.2752C15.2934 20.3413 15.4846 19.8528 15.4822 19.546C15.4797 19.2159 15.2568 18.6958 14.284 17.6981C13.9307 17.3357 13.9038 16.7665 14.2214 16.3725Z"
       fill="currentColor"

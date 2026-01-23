@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const EcmoOutline24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path
       d="M10.75 7C10.75 6.58579 10.4142 6.25 10 6.25C9.58579 6.25 9.25 6.58579 9.25 7L9.25 8.81434L8.40717 9.65717C8.11428 9.95006 8.11428 10.4249 8.40717 10.7178C8.70007 11.0107 9.17494 11.0107 9.46783 10.7178L10 10.1857L10.5322 10.7178C10.8251 11.0107 11.2999 11.0107 11.5928 10.7178C11.8857 10.4249 11.8857 9.95006 11.5928 9.65717L10.75 8.81434L10.75 7Z"
       fill="currentColor"

@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const CellNucleiFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M31 28C31 29.1046 30.1046 30 29 30C27.8954 30 27 29.1046 27 28C27 26.8954 27.8954 26 29 26C30.1046 26 31 26.8954 31 28Z"
       fill="currentColor"

@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const WheelchairAltOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M16.9998 32C16.9998 32.5523 16.552 33 15.9998 33C15.4475 33 14.9998 32.5523 14.9998 32C14.9998 31.4477 15.4475 31 15.9998 31C16.552 31 16.9998 31.4477 16.9998 32Z"
       fill="currentColor"

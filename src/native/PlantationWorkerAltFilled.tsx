@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const PlantationWorkerAltFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M24 9.5C24 11.433 22.433 13 20.5 13C18.567 13 17 11.433 17 9.5C17 7.567 18.567 6 20.5 6C22.433 6 24 7.567 24 9.5Z"
       fill="currentColor"

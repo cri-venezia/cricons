@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const RdtResultInvalidFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M20 12V25C20 26.1046 19.1046 27 18 27C16.8954 27 16 26.1046 16 25V12C16 10.8954 16.8954 10 18 10C19.1046 10 20 10.8954 20 12Z"
       fill="currentColor"

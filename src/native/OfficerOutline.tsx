@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const OfficerOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M24 9.49996C24.5333 10.0333 26 10.5666 26 10.5666C26 10.5666 25.6 13.5 24 13.5C22.4 13.5 22 10.5666 22 10.5666C22 10.5666 23.4667 10.0333 24 9.49996Z"
       fill="currentColor"

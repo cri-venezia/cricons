@@ -1,0 +1,38 @@
+{
+    "include": [
+        "env.d.ts",
+        "src/react/**/*.tsx",
+        "src/react/**/*.ts"
+    ],
+    "exclude": [
+        "src/**/__tests__/*",
+        "src/native"
+    ],
+    "compilerOptions": {
+        "composite": true,
+        "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.react.tsbuildinfo",
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ],
+            "cricons-lib/*": [
+                "./src/*"
+            ]
+        },
+        "jsx": "react",
+        "declaration": true,
+        "emitDeclarationOnly": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ESNext"
+        ]
+    }
+}

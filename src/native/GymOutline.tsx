@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const GymOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path d="M19 32L19 16H16L16 32H19Z" fill="currentColor" />
     <Path d="M14 29L14 19H11L11 23H10V25H11L11 29H14Z" fill="currentColor" />
     <Path d="M29 16V32H32V16H29Z" fill="currentColor" />

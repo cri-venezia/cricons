@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const OldManFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M22 13C24.4853 13 26.5 10.9853 26.5 8.5C26.5 6.01472 24.4853 4 22 4C19.5147 4 17.5 6.01472 17.5 8.5C17.5 10.9853 19.5147 13 22 13Z"
       fill="currentColor"

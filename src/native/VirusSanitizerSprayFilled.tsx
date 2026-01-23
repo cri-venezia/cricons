@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const VirusSanitizerSprayFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M24.8597 10.8323L23.2602 12.4318L19.0176 8.18916L20.6171 6.58969C20.9921 6.21462 21.5008 6.00391 22.0313 6.00391C22.5617 6.00391 23.0704 6.21462 23.4455 6.58969L24.8597 8.00391C25.2348 8.37898 25.4455 8.88769 25.4455 9.41812C25.4455 9.94855 25.2348 10.4573 24.8597 10.8323Z"
       fill="currentColor"

@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const HL7v2LogoFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M15.9537 4H31.9049C32.1916 4 32.425 4.23361 32.425 4.52292V20.544C32.425 21.0108 31.8643 21.2423 31.5373 20.9139L28.2758 17.6381C28.2679 17.6301 28.2549 17.6301 28.247 17.6381L19.6298 26.293C19.4268 26.4969 19.0977 26.4969 18.8947 26.293L10.2775 17.6381C10.0742 17.4338 10.0742 17.1024 10.2775 16.8982L18.8947 8.24328C18.9023 8.23565 18.9023 8.22351 18.8947 8.21588L15.5862 4.89288C15.2575 4.56273 15.4914 4 15.9537 4Z"
       fill="currentColor"

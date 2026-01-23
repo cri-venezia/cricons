@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const MagicWandFilled24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path
       d="M5.98957 8.97079C5.98957 8.22582 6.36189 7.48084 6.92072 6.92142L6.92691 6.91525C7.48711 6.3572 8.23313 5.9854 8.97914 5.9854C8.23313 5.9854 7.48711 5.61359 6.92691 5.05555L6.92072 5.04937C6.36189 4.48995 5.98957 3.74498 5.98957 3C5.98957 3.74498 5.61725 4.48995 5.05842 5.04937L5.05224 5.05555C4.49204 5.61359 3.74602 5.9854 3 5.9854C3.74602 5.9854 4.49204 6.3572 5.05224 6.91525L5.05842 6.92142C5.61725 7.48084 5.98957 8.22582 5.98957 8.97079Z"
       fill="currentColor"

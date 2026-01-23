@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const CardiogramEOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M12 29C11.4477 29 11 29.4477 11 30C11 30.5523 11.4477 31 12 31H26C26.5523 31 27 30.5523 27 30C27 29.4477 26.5523 29 26 29H12Z"
       fill="currentColor"

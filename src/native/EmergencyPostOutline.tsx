@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const EmergencyPostOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M19.7575 32.9704C19.2217 32.8364 18.8959 32.2935 19.0299 31.7577L19.7193 29H17C16.4477 29 16 28.5523 16 28C16 27.4477 16.4477 27 17 27H20.2193L21.0299 23.7577C21.1638 23.2219 21.7067 22.8961 22.2425 23.0301C22.7783 23.164 23.1041 23.707 22.9701 24.2428L22.2808 27H25C25.5523 27 26 27.4477 26 28C26 28.5523 25.5523 29 25 29H21.7808L20.9701 32.2428C20.8362 32.7786 20.2933 33.1043 19.7575 32.9704Z"
       fill="currentColor"

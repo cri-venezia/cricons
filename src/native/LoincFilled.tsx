@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const LoincFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M17 22.0228C15.8954 22.0228 15 22.9182 15 24.0228C15 25.1273 15.8954 26.0228 17 26.0228C18.1046 26.0228 19 25.1273 19 24.0228C19 22.9182 18.1046 22.0228 17 22.0228Z"
       fill="currentColor"

@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const IExamQualificationOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M15 32C14.4477 32 14 32.4477 14 33C14 33.5523 14.4477 34 15 34L33 34C33.5523 34 34 33.5523 34 33C34 32.4477 33.5523 32 33 32L15 32Z"
       fill="currentColor"

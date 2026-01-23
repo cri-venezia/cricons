@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const BloodPressureFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M6 18.7241C6 12.6409 10.0359 7 15.5625 7C19.3976 7 22.2434 9.53088 24 13.1211C25.7565 9.53111 28.6022 7 32.4375 7C37.9647 7 42 12.6419 42 18.7241C42 19.8027 41.8765 20.8554 41.6499 21.8791C39.7247 19.5122 36.7889 18 33.5 18C27.701 18 23 22.701 23 28.5C23 32.6537 25.4118 36.244 28.9115 37.947C26.1234 39.9082 24 41 24 41C24 41 6 32.3045 6 18.7241Z"
       fill="currentColor"

@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const ArtificialIntelligenceFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M34 6C32.6317 10.9436 30.8707 12.6329 26 14C30.8707 15.3671 32.6317 17.0564 34 22C35.3683 17.0564 37.1293 15.3671 42 14C37.1293 12.6329 35.3683 10.9436 34 6Z"
       fill="currentColor"

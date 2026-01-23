@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const WoozyFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M30.5 26C31.8807 26 33 24.2091 33 22C33 19.7909 31.8807 18 30.5 18C29.1193 18 28 19.7909 28 22C28 24.2091 29.1193 26 30.5 26Z"
       fill="currentColor"

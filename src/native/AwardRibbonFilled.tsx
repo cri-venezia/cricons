@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const AwardRibbonFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M13.0001 20C13.0001 13.9249 17.925 9 24.0001 9C30.0753 9 35.0001 13.9249 35.0001 20C35.0001 26.0751 30.0753 31 24.0001 31C17.925 31 13.0001 26.0751 13.0001 20Z"
       fill="currentColor"

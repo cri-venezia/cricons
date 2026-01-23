@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const BloodDropOutline24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path
       d="M10.0979 14.6181C9.92721 14.0928 9.36305 13.8054 8.8378 13.9761C8.31254 14.1467 8.02509 14.7109 8.19576 15.2361C8.45679 16.0395 8.96545 16.7396 9.64884 17.2361C10.3322 17.7326 11.1553 18.0001 12 18.0001C12.5523 18.0001 13 17.5524 13 17.0001C13 16.4478 12.5523 16.0001 12 16.0001C11.5776 16.0001 11.1661 15.8664 10.8244 15.6181C10.4827 15.3698 10.2284 15.0198 10.0979 14.6181Z"
       fill="currentColor"

@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const CopperIudOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M23 6L18.868 6L19.868 4H23C23.5523 4 24 4.44772 24 5C24 4.44772 24.4477 4 25 4H28.132L29.132 6L25 6V16.257L23 15.257V6Z"
       fill="currentColor"

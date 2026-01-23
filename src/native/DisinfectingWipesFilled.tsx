@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const DisinfectingWipesFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M26.4233 8.88463C26.6358 8.37483 26.3947 7.78936 25.8849 7.57694C25.3751 7.36452 24.7896 7.6056 24.5772 8.1154L22.0772 14.1154C21.8648 14.6252 22.1058 15.2107 22.6156 15.4231C23.1254 15.6355 23.7109 15.3944 23.9233 14.8846L26.4233 8.88463Z"
       fill="currentColor"

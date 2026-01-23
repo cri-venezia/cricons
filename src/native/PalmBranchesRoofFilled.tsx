@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const PalmBranchesRoofFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M25.381 9.54292C24.6205 8.81902 23.3795 8.81903 22.619 9.54292L7.33556 24.0922C6.85399 24.5506 6.8733 25.1936 7.50716 25.4371C9.14442 26.066 13.366 27 24 27C34.634 27 38.8556 26.066 40.4928 25.4371C41.1267 25.1936 41.146 24.5506 40.6644 24.0922L25.381 9.54292Z"
       fill="currentColor"

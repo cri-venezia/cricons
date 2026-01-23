@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const ChartLineFilled24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path
       d="M2 20V2H4V13.6115L6.17941 11.432C6.43309 12.0632 6.93684 12.567 7.56803 12.8207L4 16.3889V20H22V22H4C2.89543 22 2 21.1046 2 20Z"
       fill="currentColor"

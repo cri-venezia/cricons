@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const CalmFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M13.7427 24.3501C13.6236 25.0878 14.1241 25.7953 14.8071 26.2328C15.5209 26.6899 16.5385 26.9399 17.7369 26.763C18.9828 26.579 19.8683 25.8878 20.3903 25.0976C20.8947 24.3341 21.1023 23.4046 20.8706 22.7158C20.8161 22.554 20.6829 22.4312 20.5172 22.39C20.3515 22.3488 20.1763 22.3951 20.0524 22.5126C18.2566 24.2174 16.2286 24.6362 14.4103 23.9611C14.27 23.909 14.1138 23.9225 13.9845 23.9978C13.8553 24.0731 13.7665 24.2024 13.7427 24.3501Z"
       fill="currentColor"

@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const AnimalRatOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M12 27.25C12.5523 27.25 13 26.8023 13 26.25C13 25.6977 12.5523 25.25 12 25.25C11.4477 25.25 11 25.6977 11 26.25C11 26.8023 11.4477 27.25 12 27.25Z"
       fill="currentColor"

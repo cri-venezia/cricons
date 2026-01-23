@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const AngryFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M31.1096 32.8759C29.6418 31.7507 26.9988 31 23.9824 31C20.737 31 17.9239 31.8691 16.5415 33.1386C15.9452 33.6862 15.3756 35.3447 17.5497 34.9359C23.878 33.6758 24.4931 33.7222 30.6988 34.9359C32.2848 35.276 32.1457 34.0519 31.7107 33.4262C31.5724 33.2274 31.3758 33.0781 31.1819 32.931L31.1096 32.8759Z"
       fill="currentColor"

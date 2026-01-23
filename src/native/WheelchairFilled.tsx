@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const WheelchairFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M30.5 9.5C30.5 11.433 28.933 13 27 13C25.067 13 23.5 11.433 23.5 9.5C23.5 7.567 25.067 6 27 6C28.933 6 30.5 7.567 30.5 9.5Z"
       fill="currentColor"

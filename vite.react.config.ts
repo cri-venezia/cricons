@@ -6,7 +6,9 @@ export default defineConfig({
     plugins: [
         dts({
             outDir: 'dist/react',
-            include: ['src/react']
+            include: ['src/react'],
+            tsconfigPath: 'tsconfig.react.json',
+            rollupTypes: true
         })
     ],
     build: {

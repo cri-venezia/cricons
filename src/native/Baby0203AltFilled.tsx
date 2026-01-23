@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const Baby0203AltFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M23.9999 18C27.3138 18 30 15.3138 30 12.0001C30 8.68635 27.3138 6 23.9999 6C20.6862 6 18 8.68635 18 12.0001C18 15.3138 20.6862 18 23.9999 18Z"
       fill="currentColor"

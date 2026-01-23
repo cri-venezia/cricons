@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const SleepyOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M24 5.99976C14.0589 5.99976 6 14.0586 6 23.9998C6 33.9409 14.0589 41.9998 24 41.9998C33.9411 41.9998 42 33.9409 42 23.9998C42 22.2014 41.7363 20.4647 41.2454 18.8261L39.3293 19.401C39.7656 20.8575 40 22.4012 40 23.9998C40 32.8363 32.8366 39.9998 24 39.9998C15.1634 39.9998 8 32.8363 8 23.9998C8 15.1632 15.1634 7.99976 24 7.99976V5.99976Z"
       fill="currentColor"

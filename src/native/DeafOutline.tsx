@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const DeafOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M16 18C16 11.9249 20.9249 7 27 7C33.0751 7 38 11.9249 38 18C38 21.8069 36.067 25.1627 33.1242 27.139C30.6282 28.8153 28 31.4539 28 34.9113V35C28 38.3137 25.3137 41 22 41C18.6863 41 16 38.3137 16 35V33H14V35C14 39.4183 17.5817 43 22 43C26.4183 43 30 39.4183 30 35V34.9113C30 32.5075 31.8696 30.3908 34.2393 28.7993C37.7115 26.4674 40 22.5012 40 18C40 10.8203 34.1797 5 27 5C19.8203 5 14 10.8203 14 18H16Z"
       fill="currentColor"

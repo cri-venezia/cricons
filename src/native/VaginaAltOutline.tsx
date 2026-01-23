@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const VaginaAltOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M35.4343 6H37.2949C40.4209 13.8479 42.0078 20.1062 41.9999 25.8515C41.9922 31.4661 40.4623 36.5114 37.4956 42.0001H35.5138C38.7059 36.3419 40.278 31.3648 40.2856 25.8489C40.2932 20.288 38.7114 14.0907 35.4343 6Z"
       fill="currentColor"

@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const ArmCircumferenceFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M6 23V33L12.4058 33C12.8174 33 13.228 32.9789 13.6361 32.9368C13.8654 31.0804 14 28.8754 14 26.5C14 25.2804 13.9645 24.1057 13.899 23H6Z"
       fill="currentColor"

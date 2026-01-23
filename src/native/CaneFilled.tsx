@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const CaneFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M25.8607 38.8356C25.9411 38.3534 26.3583 38 26.8471 38H27.1529C27.6417 38 28.0589 38.3534 28.1393 38.8356L28.8059 42.8356C28.9075 43.4451 28.4375 44 27.8195 44H26.1805C25.5625 44 25.0925 43.4451 25.1941 42.8356L25.8607 38.8356Z"
       fill="currentColor"

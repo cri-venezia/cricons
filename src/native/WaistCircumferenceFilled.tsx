@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const WaistCircumferenceFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M23.8339 12C26.0431 12 27.8339 10.2091 27.8339 8C27.8339 5.79086 26.0431 4 23.8339 4C21.6248 4 19.8339 5.79086 19.8339 8C19.8339 10.2091 21.6248 12 23.8339 12Z"
       fill="currentColor"

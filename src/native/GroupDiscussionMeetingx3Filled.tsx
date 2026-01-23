@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const GroupDiscussionMeetingx3Filled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M18.5 26C18.5 28.21 16.71 30 14.5 30C12.29 30 10.5 28.21 10.5 26C10.5 23.79 12.29 22 14.5 22C16.71 22 18.5 23.79 18.5 26Z"
       fill="currentColor"

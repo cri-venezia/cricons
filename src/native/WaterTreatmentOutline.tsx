@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const WaterTreatmentOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M41.4246 28.5148C40.4541 32.2605 38.3058 35.5822 35.3138 38H41V40H32L32 31H34L34 36.49C36.6891 34.3371 38.6197 31.3663 39.4886 28.0131C40.4475 24.3123 40.0495 20.3904 38.3668 16.9576C36.6841 13.5248 33.8278 10.8079 30.3151 9.299C26.8024 7.79006 22.8656 7.58877 19.2173 8.73156L18.6195 6.823C22.7238 5.53736 27.1527 5.76382 31.1045 7.46137C35.0563 9.15893 38.2696 12.2154 40.1626 16.0773C42.0557 19.9392 42.5034 24.3513 41.4246 28.5148Z"
       fill="currentColor"

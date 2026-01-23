@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const UiPreferencesOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M23 22.9217C23 22.396 23.4743 22.0001 24 22.0001C24.5257 22.0001 25 22.396 25 22.9217V41C25 41.5523 24.5523 42 24 42C23.4477 42 23 41.5523 23 41V22.9217Z"
       fill="currentColor"

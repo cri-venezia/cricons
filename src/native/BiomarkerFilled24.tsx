@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const BiomarkerFilled24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path
       d="M8.78988 9.25C9.15367 9.64123 9.56173 9.96395 10.0109 10.2615L9.93599 10.3026C9.39601 10.5992 8.77653 10.9395 8.14879 11.3759C7.65133 10.9735 7.17442 10.4982 6.75208 9.91397C5.6512 8.39109 5 6.25454 5 3H7C7 3.64151 7.02746 4.22251 7.07823 4.75H13.0117C12.4341 5.13402 11.9503 5.64792 11.602 6.25H7.31205C7.44324 6.83119 7.61025 7.32509 7.80224 7.75H11.0622C11.0213 7.99391 11 8.24447 11 8.5C11 8.75553 11.0213 9.00609 11.0622 9.25H8.78988Z"
       fill="currentColor"

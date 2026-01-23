@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const EnzymeOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M29.0681 15.5175C29.354 16.5845 30.4506 17.2176 31.5176 16.9318C32.5845 16.6459 33.2177 15.5492 32.9318 14.4823L34.8636 13.9646C35.4354 16.0985 34.1691 18.2918 32.0352 18.8636C29.9013 19.4354 27.708 18.1691 27.1362 16.0352C26.5645 13.9013 27.8308 11.708 29.9647 11.1362L30.4823 13.0681C29.4154 13.3539 28.7822 14.4506 29.0681 15.5175Z"
       fill="currentColor"

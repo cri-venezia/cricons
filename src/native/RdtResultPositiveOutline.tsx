@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const RdtResultPositiveOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M20 38C20 39.1046 19.1046 40 18 40C16.8954 40 16 39.1046 16 38C16 36.8954 16.8954 36 18 36C19.1046 36 20 36.8954 20 38Z"
       fill="currentColor"

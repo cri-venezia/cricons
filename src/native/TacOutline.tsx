@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const TacOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M38.2141 31.3529C39.3553 29.1513 40 26.6509 40 24C40 15.1634 32.8366 8 24 8C15.1634 8 8 15.1634 8 24C8 26.651 8.6447 29.1513 9.78587 31.3529L8.73034 33.5354C7.00013 30.7706 6 27.5021 6 24C6 14.0589 14.0589 6 24 6C33.9411 6 42 14.0589 42 24C42 27.5021 40.9999 30.7706 39.2697 33.5354L38.2141 31.3529Z"
       fill="currentColor"

@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const TissueOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M12.8403 15.8022C13.3926 15.8022 13.8403 15.3545 13.8403 14.8022C13.8403 14.25 13.3926 13.8022 12.8403 13.8022C12.288 13.8022 11.8403 14.25 11.8403 14.8022C11.8403 15.3545 12.288 15.8022 12.8403 15.8022Z"
       fill="currentColor"

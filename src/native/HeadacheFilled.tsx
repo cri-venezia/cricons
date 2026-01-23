@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const HeadacheFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M13.3668 4.22607C13.7942 3.87635 14.4242 3.93935 14.774 4.36679L18.774 9.25568C19.0186 9.55473 19.0691 9.96798 18.9037 10.3171C18.7382 10.6663 18.3864 10.8889 18 10.8889H16.4128L17.7674 12.3101C18.1484 12.7099 18.1332 13.3429 17.7334 13.7239C17.3336 14.1049 16.7006 14.0897 16.3196 13.69L13.3544 10.5788C13.0784 10.2892 13.0015 9.86295 13.159 9.49517C13.3166 9.1274 13.6782 8.88892 14.0783 8.88892H15.8898L13.2261 5.63327C12.8763 5.20582 12.9393 4.5758 13.3668 4.22607Z"
       fill="currentColor"

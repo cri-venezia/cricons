@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const NotOkOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M14.8073 23.2328C14.1242 22.7954 13.6237 22.0879 13.7428 21.3502C13.7667 21.2025 13.8554 21.0732 13.9847 20.9979C14.114 20.9225 14.2702 20.909 14.4105 20.9611C16.2287 21.6362 18.2567 21.2174 20.0526 19.5127C20.1764 19.3951 20.3517 19.3489 20.5174 19.39C20.6831 19.4312 20.8163 19.5541 20.8707 19.7159C21.1024 20.4047 20.8948 21.3341 20.3905 22.0976C19.8685 22.8878 18.983 23.5791 17.737 23.763C16.5386 23.9399 15.521 23.69 14.8073 23.2328Z"
       fill="currentColor"

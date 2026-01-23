@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const ContraceptiveVoucherOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M21.3465 25.6737L19.4277 23.755C19.1955 24.2962 19.122 24.9278 19.279 25.6085L19.9598 28.5616C20.1691 29.4695 19.1323 30.1451 18.3862 29.5869L17.9007 29.2236C15.7169 27.5896 12.6622 29.4815 13.1522 32.1646L13.4113 33.5833L15.3788 33.224L15.1197 31.8053C14.9564 30.9109 15.9746 30.2803 16.7025 30.825L17.1881 31.1883C19.4262 32.8629 22.5366 30.8361 21.9087 28.1123L21.3465 25.6737Z"
       fill="currentColor"

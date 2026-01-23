@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const FactoryWorkerFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M15.319 13.2152C16.0016 11.0627 17.7285 9.28313 20 8.30808V11C20 11.5523 20.4477 12 21 12C21.5523 12 22 11.5523 22 11V7C22 6.44772 22.4477 6 23 6H25C25.5523 6 26 6.44772 26 7V11C26 11.5523 26.4477 12 27 12C27.5523 12 28 11.5523 28 11V8.30808C30.3036 9.29693 32.0472 11.1133 32.7094 13.3068C32.453 13.5155 32.0244 13.7662 31.3547 14.0106C29.8625 14.5549 27.3604 15 23.4737 15C20.6753 15 18.4256 14.564 16.9085 14.0106C16.1758 13.7433 15.6496 13.4615 15.319 13.2152Z"
       fill="currentColor"

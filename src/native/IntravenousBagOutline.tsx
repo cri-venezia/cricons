@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const IntravenousBagOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M24 11.9522C25.1046 11.9522 26 11.0568 26 9.95219C26 8.84762 25.1046 7.95219 24 7.95219C22.8954 7.95219 22 8.84762 22 9.95219C22 11.0568 22.8954 11.9522 24 11.9522Z"
       fill="currentColor"

@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const RuralPostAltOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M25 9.54785C25 8.99557 24.5523 8.54785 24 8.54785C23.4477 8.54785 23 8.99557 23 9.54785V12.0479H20.5C19.9477 12.0479 19.5 12.4956 19.5 13.0479C19.5 13.6001 19.9477 14.0479 20.5 14.0479H23V16.5479C23 17.1001 23.4477 17.5479 24 17.5479C24.5523 17.5479 25 17.1001 25 16.5479V14.0479H27.5C28.0523 14.0479 28.5 13.6001 28.5 13.0479C28.5 12.4956 28.0523 12.0479 27.5 12.0479H25V9.54785Z"
       fill="currentColor"

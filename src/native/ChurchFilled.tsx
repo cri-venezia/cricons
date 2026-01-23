@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const ChurchFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M23 13.6429V11L20 11V9L23 9V6H25V9L28 9V11L25 11V13.6429L30.2222 17C30.2222 17 31 17.5 31 18.5V42H27V33C27 31.3431 25.6569 30 24 30C22.3431 30 21 31.3431 21 33V42H17V18.5C17 17.5 17.7778 17 17.7778 17L23 13.6429Z"
       fill="currentColor"

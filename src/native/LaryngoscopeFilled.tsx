@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const LaryngoscopeFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M31.8756 14.1956L30.5794 12.8994C30.8144 11.3545 32.9357 9.01091 34.468 9.01086C36.0002 9.01082 37.5002 9.50018 40.5168 15.9239C43.5334 22.3476 39.1735 33.0371 39.2207 31.0461C39.7513 23.4948 38.7984 19.7041 33.6038 14.1956L31.8756 14.1956Z"
       fill="currentColor"

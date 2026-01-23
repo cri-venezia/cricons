@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const RespiratorOutline24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path
       d="M10.218 14.5897C10.3216 13.6839 11.0881 13 11.9997 13C12.9113 13 13.6779 13.6839 13.7814 14.5897L13.8174 14.9048C13.9146 15.7549 13.2498 16.5 12.3941 16.5H11.6053C10.7497 16.5 10.0849 15.7549 10.182 14.9048L10.218 14.5897Z"
       fill="currentColor"

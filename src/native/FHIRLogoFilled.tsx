@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const FHIRLogoFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M24.6503 26.3611C19.0306 32.0027 19.7237 37.6552 22.2761 41.9121C16.4125 39.4121 11 29.5 18.5 20.5C26.5 12.5 25 9 25 6C27.5 10.5 31.4056 19.5794 24.6503 26.3611Z"
       fill="currentColor"

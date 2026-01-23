@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const CervicalCancerFilled24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path
       d="M12.5251 6.66157C12.3353 6.85832 12.1458 7.05614 11.9587 7.25261L11.3182 6.58195C11.1056 6.35924 11.2634 5.99023 11.5714 5.99023H12.2582C12.4117 5.99023 12.5352 6.07647 12.5986 6.22996C12.6628 6.38524 12.6375 6.54497 12.5251 6.66157Z"
       fill="currentColor"

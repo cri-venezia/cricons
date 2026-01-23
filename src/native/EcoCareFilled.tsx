@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const EcoCareFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M24.4327 28.2786L22.5658 27.5719C23.0662 26.2514 23.9164 24.8203 25.2567 23.331L26.7433 24.669C25.5602 25.9836 24.842 27.1986 24.4327 28.2786Z"
       fill="currentColor"

@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const SleepyFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M6 24C6 14.0589 14.0589 6 24 6V8C15.1634 8 8 15.1634 8 24C8 32.8366 15.1634 40 24 40C32.8366 40 40 32.8366 40 24C40 22.4015 39.7656 20.8577 39.3293 19.4012L41.2454 18.8264C41.7363 20.4649 42 22.2017 42 24C42 33.9411 33.9411 42 24 42C14.0589 42 6 33.9411 6 24Z"
       fill="currentColor"

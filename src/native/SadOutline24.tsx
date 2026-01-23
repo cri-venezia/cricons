@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const SadOutline24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path
       d="M9.70409 7.53955C9.67394 7.69367 9.575 7.98367 9.3865 8.25242C9.20237 8.51495 8.96565 8.71298 8.66687 8.79304C8.36809 8.8731 8.06408 8.81995 7.77335 8.68466C7.47573 8.54617 7.24505 8.34449 7.14188 8.22609L6.01099 9.21153C6.24003 9.47438 6.63647 9.81008 7.14049 10.0446C7.65141 10.2824 8.32356 10.4379 9.0551 10.2419C9.78664 10.0459 10.291 9.57511 10.6145 9.11376C10.9338 8.65862 11.1093 8.16968 11.1762 7.82752L9.70409 7.53955Z"
       fill="currentColor"

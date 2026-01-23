@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const PpeFaceShieldAltFilled24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path
       d="M17.4016 7.775L18.9614 13.2248C19.0478 13.5266 18.9874 13.8514 18.7985 14.102C18.6095 14.3526 18.3139 14.5 18 14.5H17V17.5C14.6528 17.5 12.75 15.5972 12.75 13.25V7.75H17C17.1353 7.75 17.2687 7.75827 17.3996 7.77433L16.59 6.25H17C19.6233 6.25 22 8.37665 22 11V19H17L17 17.5H20.5V11C20.5 9.50045 19.1957 7.77605 17.4016 7.775Z"
       fill="currentColor"

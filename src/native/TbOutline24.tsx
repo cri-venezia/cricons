@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const TbOutline24 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" fill="none" width={24} height={24} {...props}>
     <Path
       d="M17.5 18.25C18.0523 18.25 18.5 17.8023 18.5 17.25C18.5 16.6977 18.0523 16.25 17.5 16.25C16.9477 16.25 16.5 16.6977 16.5 17.25C16.5 17.8023 16.9477 18.25 17.5 18.25Z"
       fill="currentColor"

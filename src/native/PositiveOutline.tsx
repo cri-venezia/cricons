@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const PositiveOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M13 24C13 23.4477 13.4477 23 14 23H23V14C23 13.4477 23.4477 13 24 13C24.5523 13 25 13.4477 25 14V23H34C34.5523 23 35 23.4477 35 24C35 24.5523 34.5523 25 34 25H25V34C25 34.5523 24.5523 35 24 35C23.4477 35 23 34.5523 23 34V25H14C13.4477 25 13 24.5523 13 24Z"
       fill="currentColor"

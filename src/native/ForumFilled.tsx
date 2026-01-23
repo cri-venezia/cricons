@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const ForumFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M4 20.0694C4 14.5082 8.50824 10 14.0694 10H21.9306C27.4918 10 32 14.5082 32 20.0694C32 25.6306 27.4918 30.1389 21.9306 30.1389H16V35C16 35 4 32.5694 4 20.0694Z"
       fill="currentColor"

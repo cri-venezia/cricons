@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const MalariaMixedMicroscopeFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M13.5693 20.3904C14.1216 20.3904 14.5693 19.9427 14.5693 19.3904C14.5693 18.8381 14.1216 18.3904 13.5693 18.3904C13.017 18.3904 12.5693 18.8381 12.5693 19.3904C12.5693 19.9427 13.017 20.3904 13.5693 20.3904Z"
       fill="currentColor"

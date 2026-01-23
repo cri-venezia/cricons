@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const GonorrheaAltOutline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M42.0583 8.71424L40.4522 3.69519L38.5474 4.30474L40.1535 9.32379C41.6892 14.1228 42.2003 19.1908 41.6539 24.1998L39.5057 43.8915L41.4939 44.1084L43.6421 24.4167C44.2189 19.1294 43.6793 13.7799 42.0583 8.71424Z"
       fill="currentColor"

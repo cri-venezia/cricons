@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const Icon4x4Outline = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M16.8367 22.6543C16.6223 23.4545 15.7998 23.9294 14.9996 23.715C14.1994 23.5005 13.7245 22.678 13.9389 21.8778C14.1534 21.0776 14.9759 20.6028 15.7761 20.8172C16.5763 21.0316 17.0511 21.8541 16.8367 22.6543Z"
       fill="currentColor"

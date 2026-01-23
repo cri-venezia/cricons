@@ -2,14 +2,7 @@ import * as React from 'react'
 import Svg, { Path } from 'react-native-svg'
 import type { SvgProps } from 'react-native-svg'
 const SyphilisAltFilled = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    {...props}
-  >
+  <Svg viewBox="0 0 48 48" fill="none" width={24} height={24} {...props}>
     <Path
       d="M7.54777 3.75L5.94168 8.76905C4.32067 13.8347 3.78111 19.1842 4.35791 24.4715L6.50609 44.1632L8.4943 43.9463L6.34611 24.2546C5.79967 19.2456 6.31083 14.1776 7.84652 9.3786L9.45262 4.35955L7.54777 3.75Z"
       fill="currentColor"
