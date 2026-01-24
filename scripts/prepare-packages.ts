@@ -40,7 +40,7 @@ async function prepare() {
     }
 
     const vuePackage = {
-        name: 'cricons-vue',
+        name: 'cricons',
         version: VERSION,
         description: 'Vue 3 components for Cricons medical icon library',
         main: 'index.umd.js',
