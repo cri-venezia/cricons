@@ -4,7 +4,7 @@
 Una collezione completa di icone SVG a tema medico, generate per Vue, React, React Native e Web.
 Progettata con ❤️ da [AHDCreative](https://ahdcreative.com) per **Croce Rossa Italiana - Comitato di Venezia**.
 
-![Cricons Banner](https://cricons.crivenezia.it/cricons.png)
+![Cricons Banner](https://cricons-cdn.art3k.org/cricons.png)
 
 ## Funzionalità
 
