@@ -40,7 +40,7 @@ async function prepare() {
     }
 
     const vuePackage = {
-        name: 'cricons',
+        name: '@criven/cricons',
         version: VERSION,
         description: 'Vue 3 components for Cricons medical icon library',
         main: 'index.umd.js',
@@ -51,7 +51,10 @@ async function prepare() {
         },
         author: rootPackage.author,
         license: rootPackage.license,
-        repository: rootPackage.repository
+        repository: rootPackage.repository,
+        publishConfig: {
+            access: "public"
+        }
     };
     await fs.writeJson(path.join(vueDir, 'package.json'), vuePackage, { spaces: 2 });
     await fs.copy(path.join(ROOT_DIR, 'README.md'), path.join(vueDir, 'README.md'));
@@ -67,7 +70,7 @@ async function prepare() {
     // Checked config: it outputs to dist/react
 
     const reactPackage = {
-        name: 'cricons-react',
+        name: '@criven/cricons-react',
         version: VERSION,
         description: 'React components for Cricons medical icon library',
         main: 'cricons-react.umd.js',
@@ -79,7 +82,10 @@ async function prepare() {
         },
         author: rootPackage.author,
         license: rootPackage.license,
-        repository: rootPackage.repository
+        repository: rootPackage.repository,
+        publishConfig: {
+            access: "public"
+        }
     };
     await fs.writeJson(path.join(reactDir, 'package.json'), reactPackage, { spaces: 2 });
     await fs.copy(path.join(ROOT_DIR, 'README.md'), path.join(reactDir, 'README.md'));
@@ -92,7 +98,7 @@ async function prepare() {
     await fs.copy(path.join(DIST_DIR, 'native'), nativeDir);
 
     const nativePackage = {
-        name: 'cricons-native',
+        name: '@criven/cricons-native',
         version: VERSION,
         description: 'React Native components for Cricons medical icon library',
         main: 'index.js',
@@ -104,7 +110,10 @@ async function prepare() {
         },
         author: rootPackage.author,
         license: rootPackage.license,
-        repository: rootPackage.repository
+        repository: rootPackage.repository,
+        publishConfig: {
+            access: "public"
+        }
     };
     await fs.writeJson(path.join(nativeDir, 'package.json'), nativePackage, { spaces: 2 });
     await fs.copy(path.join(ROOT_DIR, 'README.md'), path.join(nativeDir, 'README.md'));
@@ -112,4 +121,7 @@ async function prepare() {
     console.log('✅ Packages prepared in /packages directory!');
 }
 
-prepare().catch(console.error);
+prepare().catch((err) => {
+    console.error(err);
+    process.exit(1);
+});

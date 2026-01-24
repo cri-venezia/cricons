@@ -24,7 +24,7 @@ async function publishAll() {
             continue;
         }
 
-        console.log(`\n📦 Publishing @cricons/${pkg}...`);
+        console.log(`\n📦 Publishing package from ${pkg}...`);
         try {
             // Execute npm publish in the package directory
             execSync('npm publish --access public', {
