@@ -1,6 +1,6 @@
 {
   "name": "cricons",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "SVG icon library for Vue.js",
   "type": "module",
   "files": [
