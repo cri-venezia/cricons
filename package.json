@@ -6,14 +6,14 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/cricons.umd.js",
-  "module": "./dist/cricons.es.js",
+  "main": "./dist/cricons.umd.cjs",
+  "module": "./dist/cricons.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/cricons.es.js",
-      "require": "./dist/cricons.umd.js"
+      "import": "./dist/cricons.js",
+      "require": "./dist/cricons.umd.cjs"
     },
     "./react": {
       "types": "./dist/react/index.d.ts",

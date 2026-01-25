@@ -23,7 +23,7 @@ const typeMap: Record<string, string> = {
 
 async function generate() {
   console.log('🚀 Starting icon generation...');
-  
+
   // Clean output directory
   await fs.remove(OUTPUT_DIR);
   await fs.ensureDir(OUTPUT_DIR);
@@ -35,7 +35,7 @@ async function generate() {
   for (const file of files) {
     const filePath = path.join(INPUT_DIR, file);
     const content = await fs.readFile(filePath, 'utf-8');
-    
+
     // file path relative to INPUT_DIR, e.g., 'outline/emotions/angry.svg'
     // or 'filled/home.svg' (if no category)
     const parts = file.split('/'); // fast-glob returns forward slashes
@@ -45,7 +45,7 @@ async function generate() {
 
     // Determine style suffix
     const styleSuffix = typeMap[styleDir] || pascalCase(styleDir);
-    
+
     // Component name: PascalCase(basename) + StyleSuffix
     // Example: angry.svg in outline -> AngryOutline
     let componentName = pascalCase(basename) + styleSuffix;
@@ -54,7 +54,7 @@ async function generate() {
     if (!/^[a-zA-Z]/.test(componentName)) {
       componentName = 'Icon' + componentName;
     }
-    
+
     // Replace invalid characters if any (pascalCase usually handles spaces/dashes, but maybe others?)
     // pascalCase from 'scule' handles most, but let's be safe against '!'
     componentName = componentName.replace(/[^a-zA-Z0-9]/g, '');
@@ -96,7 +96,7 @@ async function generate() {
     // If the SVG has specific colors, we might lose them with forced currentColor. 
     // But for an icon lib, currentColor is standard.
     // Let's retry optimization config to be safer:
-    
+
     const svgResult = optimize(content, {
       plugins: [
         'preset-default',
@@ -112,7 +112,7 @@ async function generate() {
         },
       ],
     });
-    
+
     // We will wrap the SVG in a template
     const vueContent = `
 <template>
@@ -156,11 +156,11 @@ export default {
   // Actually, standard practice:
   // src/components/index.ts -> exports all components
   // src/index.ts -> exports all from components + default install
-  
+
   const componentsIndex = components
     .map(name => `export { default as ${name} } from './${name}.vue';`)
     .join('\n');
-    
+
   await fs.writeFile(path.join(OUTPUT_DIR, 'index.ts'), componentsIndex);
 
   const mainIndex = `
@@ -168,6 +168,17 @@ import type { App } from 'vue';
 import * as components from './components';
 
 export * from './components';
+
+export const createCricons = (options: { icons?: Record<string, any> } = {}) => {
+  return {
+    install(app: App) {
+      const icons = options.icons || components;
+      for (const key in icons) {
+        app.component(key, (icons as any)[key]);
+      }
+    }
+  };
+};
 
 export default {
   install(app: App) {
@@ -180,7 +191,7 @@ export default {
 
   await fs.writeFile(INDEX_FILE, mainIndex);
   await fs.writeJSON(METADATA_FILE, metadata, { spaces: 2 });
-  
+
   console.log(`🎉 Successfully generated ${components.length} icons!`);
 }
 
