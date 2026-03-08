@@ -54,7 +54,7 @@
   "author": "Luca Forzutti",
   "license": "ISC",
   "dependencies": {
-    "vue": "^3.4.0",
+    "vue": "^3.5.29",
     "vue-router": "^4.6.4"
   },
   "devDependencies": {
@@ -78,7 +78,7 @@
     "@vitejs/plugin-vue": "^5.2.4",
     "@vue/eslint-config-typescript": "^13.0.0",
     "@vue/test-utils": "^2.4.6",
-    "@vue/tsconfig": "^0.5.1",
+    "@vue/tsconfig": "^0.9.0",
     "autoprefixer": "^10.4.27",
     "dotenv": "^17.3.1",
     "eslint": "^8.57.1",
