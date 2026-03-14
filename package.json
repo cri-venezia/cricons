@@ -54,7 +54,7 @@
   "author": "Luca Forzutti",
   "license": "ISC",
   "dependencies": {
-    "vue": "^3.5.29",
+    "vue": "^3.5.30",
     "vue-router": "^4.6.4"
   },
   "devDependencies": {
