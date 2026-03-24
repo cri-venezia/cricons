@@ -1,8 +1,9 @@
 {
   "name": "cricons",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "SVG icon library for Vue.js",
   "type": "module",
+  "sideEffects": false,
   "files": [
     "dist"
   ],
@@ -53,9 +54,8 @@
   ],
   "author": "Luca Forzutti",
   "license": "ISC",
-  "dependencies": {
-    "vue": "^3.5.30",
-    "vue-router": "^4.6.4"
+  "peerDependencies": {
+    "vue": "^3.0.0"
   },
   "devDependencies": {
     "@aws-sdk/client-s3": "^3.1014.0",
@@ -106,6 +106,8 @@
     "vite-plugin-dts": "^4.5.4",
     "vitest": "^4.0.18",
     "vue-tsc": "^2.2.12",
-    "wrangler": "^4.76.0"
+    "wrangler": "^4.76.0",
+    "vue": "^3.5.30",
+    "vue-router": "^4.6.4"
   }
 }
