@@ -55,7 +55,7 @@
   "author": "Luca Forzutti",
   "license": "ISC",
   "peerDependencies": {
-    "vue": "^3.0.0"
+    "vue": "^3.5.31"
   },
   "devDependencies": {
     "@aws-sdk/client-s3": "^3.1014.0",
@@ -78,7 +78,7 @@
     "@vitejs/plugin-vue": "^5.2.4",
     "@vue/eslint-config-typescript": "^13.0.0",
     "@vue/test-utils": "^2.4.6",
-    "@vue/tsconfig": "^0.9.0",
+    "@vue/tsconfig": "^0.9.1",
     "autoprefixer": "^10.4.27",
     "dotenv": "^17.3.1",
     "eslint": "^8.57.1",
@@ -107,7 +107,7 @@
     "vitest": "^4.0.18",
     "vue-tsc": "^2.2.12",
     "wrangler": "^4.76.0",
-    "vue": "^3.5.30",
+    "vue": "^3.5.31",
     "vue-router": "^4.6.4"
   }
 }
