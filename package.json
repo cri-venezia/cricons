@@ -58,7 +58,7 @@
     "vue": "^3.5.32"
   },
   "devDependencies": {
-    "@aws-sdk/client-s3": "^3.1029.0",
+    "@aws-sdk/client-s3": "^3.1032.0",
     "@cloudflare/workers-types": "^4.20260412.1",
     "@rushstack/eslint-patch": "^1.16.1",
     "@svgr/core": "^8.1.0",
@@ -106,7 +106,7 @@
     "vite-plugin-dts": "^4.5.4",
     "vitest": "^4.0.18",
     "vue-tsc": "^2.2.12",
-    "wrangler": "^4.81.1",
+    "wrangler": "^4.83.0",
     "vue": "^3.5.32",
     "vue-router": "^4.6.4"
   }
