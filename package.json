@@ -92,7 +92,7 @@
     "jsdom": "^27.4.0",
     "mime-types": "^3.0.2",
     "postcss": "^8.5.16",
-    "prettier": "^3.9.1",
+    "prettier": "^3.9.4",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "react-native": "^0.86.0",
