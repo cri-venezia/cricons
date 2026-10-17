@@ -55,7 +55,7 @@
   "author": "Luca Forzutti",
   "license": "ISC",
   "peerDependencies": {
-    "vue": "^3.5.43"
+    "vue": "^3.5.44"
   },
   "devDependencies": {
     "@aws-sdk/client-s3": "^3.1079.0",
@@ -107,7 +107,7 @@
     "vitest": "^4.1.12",
     "vue-tsc": "^2.2.12",
     "wrangler": "^4.107.0",
-    "vue": "^3.5.43",
+    "vue": "^3.5.44",
     "vue-router": "^4.6.4"
   }
 }
